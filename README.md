@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align = "center">
 
-## Getting Started
+<img height=200px src="./public/tinkerhub-cec-logo.svg">
 
-First, run the development server:
+<!-------- Social Handles --------->
 
-```bash
-npm run dev
-# or
+<!-- <a href="https://medium.com/developer-student-clubs-tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a> -->
+<a href="https://twitter.com/i/communities/1542180181598560256"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://www.linkedin.com/company/tinkerhub-cec/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a><a href="https://www.instagram.com/tinkerhub.cec/"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+
+## Website: [tinkerhubcec.tech](https://linktr.ee/Tinkerhub_cec)
+
+[![GitHub issues](https://img.shields.io/github/issues/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/issues)  [![GitHub forks](https://img.shields.io/github/forks/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/network)  [![GitHub stars](https://img.shields.io/github/stars/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/stargazers)  [![GitHub license](https://img.shields.io/github/license/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website)
+
+ We at TinkerHub CE Chengannur, aim to fulfill the mission and vision of Tinkerhub Foundation at our campus by empowering students with access to the knowledge they need to thrive in the new world.
+
+ This is the repo for the official Website of TinkerHub CE Chengannur, Alappuzha , Kerala. Kindly go through the entire README.md for getting familiar with contribution steps
+
+</div>
+
+## Install :heart:
+
+At your root directory run the below command to install all the dependencies
+```sh
+yarn install
+```
+
+## Usage :star:
+
+To start react dev server
+
+```sh
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This runs the app in the development mode.<br />
+**Open [http://localhost:3000](http://localhost:3000) to view it in the browser.**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The page will reload if you make edits.<br />
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Contribution to the project :smile:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+We follow a systematic Git Workflow -
 
-## Learn More
+- Create a fork of this repo.
+- Clone your fork of your repo on your pc.
+- [Add Upstream to your clone](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+- **Every change** that you do, it has to be on a branch. Commits on master would directly be closed.
+- Make sure that before you create a new branch for new changes,[syncing with upstream](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork) is neccesary.
 
-To learn more about Next.js, take a look at the following resources:
+## Commits :book:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
+- Make sure your PR's description contains GitHub's special keyword references that automatically close the related issue when the PR is merged. (Check [this](https://github.com/blog/1506-closing-issues-via-pull-requests) for more info)
+- If you're making very, very small changes to your PR (such as fixing a failed Travis build, or making some minor style corrections or minor changes requested by reviewers), make sure you squeeze your commits afterwards, so you don't have an absurd number of commits for a very small fix. (Learn how to squash at [here](https://davidwalsh.name/squash-commits-git))
+- If you are submitting a PR for a UI-related topic, it would be really awesome if you could add a screenshot of your change or a link to a deployment where it can be tested along with your PR. This makes it very easy for reviewers and you will also get reviews faster.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Note :apple:
 
-## Deploy on Vercel
+- Use only `yarn add package_name` to add new packages to the frontend part.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributors ✨
+
+We would like to thank these wonderful people who helped us to build this project. Cheers!
+
+<!-- readme: collaborators,contributors -start -->
+<!-- readme: collaborators,contributors -end -->
+
+## Acknowledgments :boy:
+
+- [contributors-readme-action](https://github.com/akhilmhdh/contributors-readme-action) by [Akhil Mohan](https://github.com/akhilmhdh)
+
+## Show your support 
+
+Give a ⭐️ if this project helped you!
+
+***
+
+

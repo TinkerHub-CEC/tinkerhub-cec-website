@@ -4,7 +4,7 @@ import { Layout } from '../layout/Layout';
 const Home = () => {
   return (
     <Layout>
-      <div>Hello World</div>
+      <div>TinkerHub  CE Chengannur</div>
       </Layout>
     
   );

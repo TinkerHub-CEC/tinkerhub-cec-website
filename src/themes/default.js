@@ -1,16 +1,21 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
     // Temp fonts
     fonts: {
-      title: "Open Sans, sans-serif",
-      main: "Open Sans, sans-serif"
+      title: "Raleway, sans-serif",
+      main: "Raleway, sans-serif"
     },
     // Colors for layout
     colors: {
       primary: "#000000",
       background: "#FFFFFF",
-      accent: "",
-      button: "",
-      background: "",
+      primary2:"#FFFFFF",
+      th_red:"#EE1700",
+      th_green:"#95BF15",
+      th_blue:"#0060FF",
+      th_yellow:"#FFCD10",
+      th_cyan:"#05BFCE",
+      th_dark_blue:"#205B67",
     },
     // Breakpoints for responsive design
     breakpoints: {

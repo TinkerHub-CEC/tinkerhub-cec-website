@@ -4,7 +4,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
     <Head>
-        <title>PAVAR</title>
+        <title>TinkerHub CE Chengannur</title>
         <meta name="description" content="Permission Administration Validation and Recorder" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

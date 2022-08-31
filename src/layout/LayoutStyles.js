@@ -6,11 +6,9 @@ export const Container = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
+flex-direction: column;
 font-size: 3em;
-
+font-weight: 700;
 @media ${props => props.theme.breakpoints.md} {
     font-size: 4em;
    

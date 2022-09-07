@@ -7,14 +7,5 @@ width: 100%;
 height: 100vh;
 display: flex;
 flex-direction: column;
-font-size: 3em;
-font-weight: 700;
-@media ${props => props.theme.breakpoints.md} {
-    font-size: 4em;
-   
-  }
 
-  @media ${props => props.theme.breakpoints.sm} {
-    font-size: 6em;
-  }
 `;

@@ -12,7 +12,7 @@ export const Letter = () => {
             </Content>
             <Form>
                 
-                <br/><label for="email"></label>
+                <br/><label htmlfor="email"></label>
                 <Column type="text" id="email" name="email" placeholder="yourname@gmail.com" /><br/><br/>
                 <BlueButton type="submit" value="GET UPDATES"/>
                 

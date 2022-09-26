@@ -79,6 +79,20 @@ We would like to thank these wonderful people who helped us to build this projec
             <br />
             <sub><b>Alwin John</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Sreyas62">
+            <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
+            <br />
+            <sub><b>Sreyas</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Dexters-Hub">
+            <img src="https://avatars.githubusercontent.com/u/47777599?v=4" width="100;" alt="Dexters-Hub"/>
+            <br />
+            <sub><b>Alwin John</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->

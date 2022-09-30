@@ -1,9 +1,6 @@
 import React from "react";
 import {Heading,Button,P,Card,Container,Title,Span,Card_image} from './EventStyles';
 
-
-import React from 'react'
-
 export const Event = () => {
   return (
     <div>

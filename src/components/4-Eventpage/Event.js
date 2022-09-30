@@ -18,7 +18,7 @@ function Eventpage() {
     <Card id="open-source" onClick={link1} style={{cursor:'pointer'}}>
     <Card_image src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title1</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -27,7 +27,7 @@ function Eventpage() {
     <Card  id="Mobile" onClick={link2} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
       <Title>Title2</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -36,7 +36,7 @@ function Eventpage() {
     <Card  id="Design" onClick={link3} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title3</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -45,7 +45,7 @@ function Eventpage() {
     <Card id="Internet of Things" onClick={link4} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title4</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -54,7 +54,7 @@ function Eventpage() {
     <Card id="Hackathons" onClick={link5} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title5</Title>          
-          <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+          <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
           <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -63,7 +63,7 @@ function Eventpage() {
     <Card id="Robotics" onClick={link6} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title6</Title>          
-          <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+          <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
         <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -72,7 +72,7 @@ function Eventpage() {
     <Card id="x1" onClick={link7} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title7</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br>  <Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>
@@ -81,7 +81,7 @@ function Eventpage() {
     <Card id="x2" onClick={link8} style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title8</Title>          
-       <P>Some quick example text to build on the card title and make up the bulk of the card's content.</P>
+       <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
        <br></br><Span>flutter</Span>
       <Span>mobile</Span>
       <Span>hackathon</Span>

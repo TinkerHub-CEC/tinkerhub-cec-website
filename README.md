@@ -86,6 +86,13 @@ We would like to thank these wonderful people who helped us to build this projec
             <br />
             <sub><b>Sreyas</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/developer-irfan">
+            <img src="https://avatars.githubusercontent.com/u/111001343?v=4" width="100;" alt="developer-irfan"/>
+            <br />
+            <sub><b>Muhammad Irfan</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: collaborators,contributors -end -->

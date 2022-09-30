@@ -67,6 +67,13 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
+        <a href="https://github.com/enter-opy">
+            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
+            <br />
+            <sub><b>Vivek Vijayan</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Dexters-Hub">
             <img src="https://avatars.githubusercontent.com/u/47777599?v=4" width="100;" alt="Dexters-Hub"/>
             <br />
@@ -74,17 +81,17 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Sreyas62">
-            <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
-            <br />
-            <sub><b>Sreyas</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/rithins36">
             <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
             <br />
             <sub><b>Rithin Samuel</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Sreyas62">
+            <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
+            <br />
+            <sub><b>Sreyas</b></sub>
         </a>
     </td></tr>
 </table>

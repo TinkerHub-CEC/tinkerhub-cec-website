@@ -5,15 +5,15 @@ export const Event = () => {
   return (
     <div>
     <Heading>Events</Heading>
-    <Button onClick={Card1}>All</Button>
-    <Button onClick={Card2}>Open-Source</Button>
-    <Button onClick={Card3}>Mobile</Button>
-    <Button onClick={Card4}>Design</Button>
-    <Button onClick={Card5}>Internet of Things</Button>
-    <Button onClick={Card6}>Hackathons</Button>
-    <Button onClick={Card7}>Robotics</Button>
+    <Button>All</Button>
+    <Button>Open-Source</Button>
+    <Button>Mobile</Button>
+    <Button>Design</Button>
+    <Button>Internet of Things</Button>
+    <Button>Hackathons</Button>
+    <Button>Robotics</Button>
     <Container>
-    <Card id="open-source" onClick={link1} style={{cursor:'pointer'}}>
+    <Card id="open-source" style={{cursor:'pointer'}}>
     <Card_image src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title1</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -22,7 +22,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card  id="Mobile" onClick={link2} style={{cursor:'pointer'}}>
+    <Card  id="Mobile" style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
       <Title>Title2</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -31,7 +31,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card  id="Design" onClick={link3} style={{cursor:'pointer'}}>
+    <Card  id="Design"  style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title3</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -40,7 +40,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card id="Internet of Things" onClick={link4} style={{cursor:'pointer'}}>
+    <Card id="Internet of Things" style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title4</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -49,7 +49,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card id="Hackathons" onClick={link5} style={{cursor:'pointer'}}>
+    <Card id="Hackathons"  style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title5</Title>          
           <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -58,7 +58,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card id="Robotics" onClick={link6} style={{cursor:'pointer'}}>
+    <Card id="Robotics"  style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title6</Title>          
           <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -67,7 +67,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card id="x1" onClick={link7} style={{cursor:'pointer'}}>
+    <Card id="x1"  style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title7</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>
@@ -76,7 +76,7 @@ export const Event = () => {
       <Span>hackathon</Span>
                           
     </Card>
-    <Card id="x2" onClick={link8} style={{cursor:'pointer'}}>
+    <Card id="x2" style={{cursor:'pointer'}}>
     <Card_image  src="/images/ph.jpg" alt="Event"></Card_image>
           <Title>Title8</Title>          
        <P>Some quick example text to build on the card title and make up the bulk of the cards content.</P>

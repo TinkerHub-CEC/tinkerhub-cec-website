@@ -1,10 +1,11 @@
 import React from "react";
 import {Heading,Button,P,Card,Container,Title,Span,Card_image} from './EventStyles';
 
-export default Eventpage;
-function Eventpage() {
+
+import React from 'react'
+
+export const Event = () => {
   return (
-    
     <div>
     <Heading>Events</Heading>
     <Button onClick={Card1}>All</Button>
@@ -89,179 +90,177 @@ function Eventpage() {
     </Card>
     </Container>
     
-    
-    
-    
-    
     </div>
- 
- );
- function link1(){
-  window.location.href="https://www.google.com/";
- }
- function link2(){
-  window.location.href="https://www.google.com/";
- }
- function link3(){
-  window.location.href="https://www.google.com/";
- }
- function link4(){
-  window.location.href="https://www.google.com/";
- }
- function link5(){
-  window.location.href="https://www.google.com/";
- }
- function link6(){
-  window.location.href="https://www.google.com/";
- }
- function link7(){
-  window.location.href="https://www.google.com/";
- }
- function link8(){
-  window.location.href="https://www.google.com/";
- }
- function Card1() {
+  )
+}
 
-  document.getElementById("open-source").style.display = "block";
 
-  document.getElementById("Mobile").style.display = "block";
+//  function link1(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link2(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link3(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link4(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link5(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link6(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link7(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function link8(){
+//   window.location.href="https://www.google.com/";
+//  }
+//  function Card1() {
 
-  document.getElementById("Design").style.display = "block";
+//   document.getElementById("open-source").style.display = "block";
 
-  document.getElementById("Internet of Things").style.display = "block";
+//   document.getElementById("Mobile").style.display = "block";
 
-  document.getElementById("Hackathons").style.display = "block";
+//   document.getElementById("Design").style.display = "block";
 
-  document.getElementById("Robotics").style.display = "block";
+//   document.getElementById("Internet of Things").style.display = "block";
 
-  document.getElementById("x1").style.display = "block";
+//   document.getElementById("Hackathons").style.display = "block";
 
-  document.getElementById("x2").style.display = "block";
+//   document.getElementById("Robotics").style.display = "block";
+
+//   document.getElementById("x1").style.display = "block";
+
+//   document.getElementById("x2").style.display = "block";
 
   
 
 
-}
+// }
 
-function Card2() {
+// function Card2() {
 
-document.getElementById("open-source").style.display ="block";
+// document.getElementById("open-source").style.display ="block";
 
-  document.getElementById("Mobile").style.display ="none";
+//   document.getElementById("Mobile").style.display ="none";
 
-  document.getElementById("Design").style.display = "none";
+//   document.getElementById("Design").style.display = "none";
 
-  document.getElementById("Internet of Things").style.display = "none";
+//   document.getElementById("Internet of Things").style.display = "none";
 
-  document.getElementById("Hackathons").style.display = "none";
+//   document.getElementById("Hackathons").style.display = "none";
 
-  document.getElementById("Robotics").style.display = "none";
+//   document.getElementById("Robotics").style.display = "none";
 
-  document.getElementById("x1").style.display = "none";
+//   document.getElementById("x1").style.display = "none";
 
-  document.getElementById("x2").style.display = "none";
+//   document.getElementById("x2").style.display = "none";
 
-}
-function Card3() {
+// }
+// function Card3() {
 
-  document.getElementById("open-source").style.display ="none";
+//   document.getElementById("open-source").style.display ="none";
 
-  document.getElementById("Mobile").style.display ="block";
+//   document.getElementById("Mobile").style.display ="block";
 
-  document.getElementById("Design").style.display = "none";
+//   document.getElementById("Design").style.display = "none";
 
-  document.getElementById("Internet of Things").style.display = "none";
+//   document.getElementById("Internet of Things").style.display = "none";
 
-  document.getElementById("Hackathons").style.display = "none";
+//   document.getElementById("Hackathons").style.display = "none";
 
-  document.getElementById("Robotics").style.display = "none";
+//   document.getElementById("Robotics").style.display = "none";
 
-  document.getElementById("x1").style.display = "none";
+//   document.getElementById("x1").style.display = "none";
 
-  document.getElementById("x2").style.display = "none";
-}
+//   document.getElementById("x2").style.display = "none";
+// }
 
-function Card4() {
+// function Card4() {
 
-  document.getElementById("open-source").style.display ="none";
+//   document.getElementById("open-source").style.display ="none";
 
-  document.getElementById("Mobile").style.display ="none";
+//   document.getElementById("Mobile").style.display ="none";
 
-  document.getElementById("Design").style.display = "block";
+//   document.getElementById("Design").style.display = "block";
 
-  document.getElementById("Internet of Things").style.display = "none";
+//   document.getElementById("Internet of Things").style.display = "none";
 
-  document.getElementById("Hackathons").style.display = "none";
+//   document.getElementById("Hackathons").style.display = "none";
 
-  document.getElementById("Robotics").style.display = "none";
+//   document.getElementById("Robotics").style.display = "none";
 
-  document.getElementById("x1").style.display = "none";
+//   document.getElementById("x1").style.display = "none";
 
-  document.getElementById("x2").style.display = "none";
+//   document.getElementById("x2").style.display = "none";
 
-}
-
-
-function Card5() {
-
-  document.getElementById("open-source").style.display ="none";
-
-  document.getElementById("Mobile").style.display ="none";
-
-  document.getElementById("Design").style.display = "none";
-
-  document.getElementById("Internet of Things").style.display = "block";
-
-  document.getElementById("Hackathons").style.display = "none";
-
-  document.getElementById("Robotics").style.display = "none";
-
-  document.getElementById("x1").style.display = "none";
-
-  document.getElementById("x2").style.display = "none";
-
-}
+// }
 
 
-function Card6() {
+// function Card5() {
 
-  document.getElementById("open-source").style.display ="none";
+//   document.getElementById("open-source").style.display ="none";
 
-  document.getElementById("Mobile").style.display ="none";
+//   document.getElementById("Mobile").style.display ="none";
 
-  document.getElementById("Design").style.display = "none";
+//   document.getElementById("Design").style.display = "none";
 
-  document.getElementById("Internet of Things").style.display = "none";
+//   document.getElementById("Internet of Things").style.display = "block";
 
-  document.getElementById("Hackathons").style.display = "block";
+//   document.getElementById("Hackathons").style.display = "none";
 
-  document.getElementById("Robotics").style.display = "none";
+//   document.getElementById("Robotics").style.display = "none";
 
-  document.getElementById("x1").style.display = "none";
+//   document.getElementById("x1").style.display = "none";
 
-  document.getElementById("x2").style.display = "none";
+//   document.getElementById("x2").style.display = "none";
+
+// }
 
 
-}
+// function Card6() {
+
+//   document.getElementById("open-source").style.display ="none";
+
+//   document.getElementById("Mobile").style.display ="none";
+
+//   document.getElementById("Design").style.display = "none";
+
+//   document.getElementById("Internet of Things").style.display = "none";
+
+//   document.getElementById("Hackathons").style.display = "block";
+
+//   document.getElementById("Robotics").style.display = "none";
+
+//   document.getElementById("x1").style.display = "none";
+
+//   document.getElementById("x2").style.display = "none";
 
 
-function Card7() {
+// }
 
-  document.getElementById("open-source").style.display ="none";
 
-  document.getElementById("Mobile").style.display ="none";
+// function Card7() {
 
-  document.getElementById("Design").style.display = "none";
+//   document.getElementById("open-source").style.display ="none";
 
-  document.getElementById("Internet of Things").style.display = "none";
+//   document.getElementById("Mobile").style.display ="none";
 
-  document.getElementById("Hackathons").style.display = "none";
+//   document.getElementById("Design").style.display = "none";
 
-  document.getElementById("Robotics").style.display = "block";
+//   document.getElementById("Internet of Things").style.display = "none";
 
-  document.getElementById("x1").style.display = "none";
+//   document.getElementById("Hackathons").style.display = "none";
 
-  document.getElementById("x2").style.display = "none";
-}
-}
+//   document.getElementById("Robotics").style.display = "block";
+
+//   document.getElementById("x1").style.display = "none";
+
+//   document.getElementById("x2").style.display = "none";
+// }
+
 

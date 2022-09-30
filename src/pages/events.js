@@ -1,7 +1,7 @@
-import {Eventpage} from '../components/4-Eventpage/Event'
+import {Event} from '../components/4-Eventpage/Event'
 const Events = () => {
     return (
-      <Eventpage/>
+      <Event/>
 
     
       

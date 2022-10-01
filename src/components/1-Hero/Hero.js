@@ -8,7 +8,7 @@ function Hero() {
         <HeroGrid>
 
             <HeroContentAction>
-                <LargeHeading>TinkerHub CE Chengannur</LargeHeading>
+                [<LargeHeading>TinkerHub CE Chengannur</LargeHeading>]
                 <HeroParagraph>Official TinkerHub Chapter of College of Engineering, Chengannur</HeroParagraph>
                 <RedActionButton href="https://join.tinkerhub.org/" target="_blank">Join Us</RedActionButton>
                 

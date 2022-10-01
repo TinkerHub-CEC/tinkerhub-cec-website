@@ -67,17 +67,10 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
-<<<<<<< HEAD
-        <a href="https://github.com/rithins36">
-            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
-            <br />
-            <sub><b>Rithin Samuel</b></sub>
-=======
         <a href="https://github.com/enter-opy">
             <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
             <br />
             <sub><b>Vivek Vijayan</b></sub>
->>>>>>> 4876dbe52029472df906fa4893fc0b3a6bd1c32e
         </a>
     </td>
     <td align="center">
@@ -88,8 +81,6 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
-<<<<<<< HEAD
-=======
         <a href="https://github.com/rithins36">
             <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
             <br />
@@ -97,7 +88,6 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
->>>>>>> 4876dbe52029472df906fa4893fc0b3a6bd1c32e
         <a href="https://github.com/bestin015">
             <img src="https://avatars.githubusercontent.com/u/97306433?v=4" width="100;" alt="bestin015"/>
             <br />

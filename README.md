@@ -67,10 +67,10 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/rithins36">
-            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+        <a href="https://github.com/enter-opy">
+            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
             <br />
-            <sub><b>Rithin Samuel</b></sub>
+            <sub><b>Vivek Vijayan</b></sub>
         </a>
     </td>
     <td align="center">
@@ -81,10 +81,24 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/rithins36">
+            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+            <br />
+            <sub><b>Rithin Samuel</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/bestin015">
             <img src="https://avatars.githubusercontent.com/u/97306433?v=4" width="100;" alt="bestin015"/>
             <br />
             <sub><b>Bestin K Benny</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/l0gicerr0r">
+            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
+            <br />
+            <sub><b>Alfi Thomas</b></sub>
         </a>
     </td>
     <td align="center">
@@ -93,19 +107,13 @@ We would like to thank these wonderful people who helped us to build this projec
             <br />
             <sub><b>Abin T Sunil</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Sreyas62">
             <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
             <br />
             <sub><b>Sreyas</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/l0gicerr0r">
-            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
-            <br />
-            <sub><b>Alfi Thomas</b></sub>
         </a>
     </td>
     <td align="center">

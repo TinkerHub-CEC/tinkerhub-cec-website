@@ -11,7 +11,7 @@ function Welcome(){
                 <HeaderContent>
                     <Link href="/" passHref><L>Home</L></Link>
                     <Link href="/about" passHref><L>About</L></Link>  
-                    <Link href="/events" passHref><L>Event</L></Link>          
+                    <Link href="/events" passHref><L>Events</L></Link>          
                 </HeaderContent>
 
 

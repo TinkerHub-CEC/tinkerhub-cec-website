@@ -102,6 +102,13 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/l0gicerr0r">
+            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
+            <br />
+            <sub><b>Alfi Thomas</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/developer-irfan">
             <img src="https://avatars.githubusercontent.com/u/111001343?v=4" width="100;" alt="developer-irfan"/>
             <br />

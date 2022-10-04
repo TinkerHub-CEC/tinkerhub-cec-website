@@ -11,7 +11,7 @@ display:flex;
 flex-direction:row;
 padding:50px;
 padding-bottom:0;
-margin-left:70px;
+// margin-left:70px;
 `;
 
 export const HeaderImage=styled.img`
@@ -20,7 +20,7 @@ height:100px;
 `;
 
 export const HeaderContent=styled.ul`
-margin-left:120px;
+margin-left:150px;
 margin-top:30px;
 `;
 
@@ -28,7 +28,7 @@ export const L =styled.a`
 text-decoration:none;
 color:black;
 margin-right:150px;
-font-weight:bold;
+// font-weight:bold;
 font-size:1.2em;
 `;
 
@@ -36,12 +36,13 @@ export const Headerlogo=styled.div`
 padding-top: 15px;
 display:flex;
 flex-direction:row;
+margin-left:20px;
 `;
 
 export const LImage=styled.img`
 width:50px;
 height:50px;
-margin-right:15px;
+margin-right:25px;
 `;
  
 export const I=styled.a`

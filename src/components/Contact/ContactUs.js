@@ -8,7 +8,7 @@ export const  Contact = () => {
             <Container1>
              <Block1 src="/images/contact-us.png " alt="Contact us image"></Block1>
              <Block2>
-                <Heading1>We'd love to hear from you.</Heading1>
+                <Heading1>We would love to hear from you.</Heading1>
                 <Container2>
                   <Box>
                     <Box1>

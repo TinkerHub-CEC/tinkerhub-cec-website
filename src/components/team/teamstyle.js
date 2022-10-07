@@ -14,6 +14,8 @@ width: 100%;
 text-align: center;
 `;
 export const Division1= styled.div`
+display:flex;
+flex-direction:row;
 `;
 export const Division4= styled.div`
 display: flex;
@@ -257,8 +259,13 @@ font-size: 3rem;
 font-weight: 600;
 width: 100%;
 `;
+export const Holder=styled.div`
+position:relative;
+`;
 export const Name = styled.h4`
-margin-left: 646px;
+position:absolute;
+top:10px;
+left:5px;
 `;
 export const Position = styled.h6`
 margin-left: 646px;

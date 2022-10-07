@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container,Division1,Division2,Division3,Division4,U,U1,U2,U3,U4,U5,U6,Division5,Division6,Division7,Division8,Division9,Name,Position,Division10,HeroImage10,HeroImage11,HeroImage12,HeroImage13,HeroImage14,HeroImage15,HeroImage16,HeroImage17,HeroImage18,HeroImage19,HeroImage20,HeroImage21,HeroImage22,Teambutton1,Teambutton2,Buttondiv,HeroImage,HeroImage1,HeroImage2,HeroImage3,HeroImage4,HeroImage5,HeroImage6,HeroImage7,HeroImage8,HeroImage9,LargeHeading,LargeHeading1,LargeHeading2,LargeHeading3,LargeHeading4,LargeHeading5,LargeHeading6,LargeHeading7,LargeHeading8 } from './teamstyle'
+import {Container,Division1,Division2,Division3,Division4,U,U1,U2,U3,U4,U5,U6,Division5,Division6,Division7,Division8,Division9,Holder,Name,Position,Division10,HeroImage10,HeroImage11,HeroImage12,HeroImage13,HeroImage14,HeroImage15,HeroImage16,HeroImage17,HeroImage18,HeroImage19,HeroImage20,HeroImage21,HeroImage22,Teambutton1,Teambutton2,Buttondiv,HeroImage,HeroImage1,HeroImage2,HeroImage3,HeroImage4,HeroImage5,HeroImage6,HeroImage7,HeroImage8,HeroImage9,LargeHeading,LargeHeading1,LargeHeading2,LargeHeading3,LargeHeading4,LargeHeading5,LargeHeading6,LargeHeading7,LargeHeading8 } from './teamstyle'
 function Team() {
     return (
         <Container>
@@ -19,8 +19,18 @@ function Team() {
             <br/>
             <br/>
             <Division1>
+                <Holder>
                 <HeroImage src="/images/profile.png"/>
+                <Name>Sreelekshmi</Name>
+                <Position>Outreach Lead</Position>
+                </Holder>
+                
+                <Holder>
                 <HeroImage1 src="/images/profile.png"/>
+                <Name>Sreelekshmi</Name>
+                <Position>Outreach Lead</Position>
+                </Holder>
+                
             </Division1>
             <br/>
             <br/>

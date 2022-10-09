@@ -7,7 +7,7 @@
 <!-- <a href="https://medium.com/developer-student-clubs-tiet"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a> -->
 <a href="https://twitter.com/i/communities/1542180181598560256"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://www.linkedin.com/company/tinkerhub-cec/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a><a href="https://www.instagram.com/tinkerhub.cec/"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-## Website: [tinkerhubcec.tech](https://linktr.ee/Tinkerhub_cec)
+## Website: [tinkerhubcechengannur.tech](https://www.tinkerhubcechengannur.tech/)
 
 [![GitHub issues](https://img.shields.io/github/issues/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/issues)  [![GitHub forks](https://img.shields.io/github/forks/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/network)  [![GitHub stars](https://img.shields.io/github/stars/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website/stargazers)  [![GitHub license](https://img.shields.io/github/license/TinkerHub-CEC/tinkerhub-cec-website?style=flat-square)](https://github.com/TinkerHub-CEC/tinkerhub-cec-website)
 
@@ -67,10 +67,10 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/rithins36">
-            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+        <a href="https://github.com/enter-opy">
+            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
             <br />
-            <sub><b>Rithin Samuel</b></sub>
+            <sub><b>Vivek Vijayan</b></sub>
         </a>
     </td>
     <td align="center">
@@ -81,12 +81,34 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/rithins36">
+            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+            <br />
+            <sub><b>Rithin Samuel</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/bestin015">
             <img src="https://avatars.githubusercontent.com/u/97306433?v=4" width="100;" alt="bestin015"/>
             <br />
             <sub><b>Bestin K Benny</b></sub>
         </a>
     </td>
+    <td align="center">
+        <a href="https://github.com/l0gicerr0r">
+            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
+            <br />
+            <sub><b>Alfi Thomas</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Abin-T-Sunil">
+            <img src="https://avatars.githubusercontent.com/u/80634744?v=4" width="100;" alt="Abin-T-Sunil"/>
+            <br />
+            <sub><b>Abin T Sunil</b></sub>
+        </a>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Sreyas62">
             <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>

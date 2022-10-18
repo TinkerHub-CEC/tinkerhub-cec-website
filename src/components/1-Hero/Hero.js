@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container, HeroContentAction, HeroGrid, HeroImage, HeroParagraph, LargeHeading, RedActionButton } from './HeroStyles'
 
-export const Hero = () => {
+export const Hero=()=> {
   return (
     <Container>
         <HeroGrid>
@@ -22,3 +22,4 @@ export const Hero = () => {
   )
 }
 
+ 

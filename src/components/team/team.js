@@ -19,17 +19,15 @@ function Team() {
             <br/>
             <br/>
             <Division1>
-                <Holder>
-                <HeroImage src="/images/profile.png"/>
-                <Name>Sreelekshmi</Name>
-                <Position>Outreach Lead</Position>
-                </Holder>
                 
-                <Holder>
+                <HeroImage src="/images/profile.png"/>
+                
+                
+                
+                
                 <HeroImage1 src="/images/profile.png"/>
-                <Name>Sreelekshmi</Name>
-                <Position>Outreach Lead</Position>
-                </Holder>
+               
+                
                 
             </Division1>
             <br/>

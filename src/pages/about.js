@@ -9,6 +9,7 @@ const About = () => {
       <Welcome/>
       <Abcontent/>
       <Letter/> 
+      <Team/> 
     </Layout>
           
     );

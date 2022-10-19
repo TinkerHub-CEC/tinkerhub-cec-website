@@ -67,10 +67,10 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/enter-opy">
-            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
+        <a href="https://github.com/rithins36">
+            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
             <br />
-            <sub><b>Vivek Vijayan</b></sub>
+            <sub><b>Rithin Samuel</b></sub>
         </a>
     </td>
     <td align="center">
@@ -81,10 +81,10 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/rithins36">
-            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+        <a href="https://github.com/Rahul9649">
+            <img src="https://avatars.githubusercontent.com/u/97725003?v=4" width="100;" alt="Rahul9649"/>
             <br />
-            <sub><b>Rithin Samuel</b></sub>
+            <sub><b>Rahul</b></sub>
         </a>
     </td>
     <td align="center">
@@ -114,13 +114,6 @@ We would like to thank these wonderful people who helped us to build this projec
             <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
             <br />
             <sub><b>Sreyas</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/Rahul9649">
-            <img src="https://avatars.githubusercontent.com/u/97725003?v=4" width="100;" alt="Rahul9649"/>
-            <br />
-            <sub><b>Rahul</b></sub>
         </a>
     </td>
     <td align="center">

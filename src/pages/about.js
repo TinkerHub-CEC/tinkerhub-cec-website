@@ -1,3 +1,4 @@
+import Team from '../components/team/team';
 import Welcome from '../components/0-Header/Header';
 import { Abcontent } from '../components/Content/abcontent';
 import {Letter} from '../components/2-Newsletter/Newsletter'
@@ -8,6 +9,7 @@ const About = () => {
       <Welcome/>
       <Abcontent/>
       <Letter/> 
+      <Team/> 
     </Layout>
           
     );

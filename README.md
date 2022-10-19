@@ -110,6 +110,13 @@ We would like to thank these wonderful people who helped us to build this projec
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/Rahul9649">
+            <img src="https://avatars.githubusercontent.com/u/97725003?v=4" width="100;" alt="Rahul9649"/>
+            <br />
+            <sub><b>Rahul</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/developer-irfan">
             <img src="https://avatars.githubusercontent.com/u/111001343?v=4" width="100;" alt="developer-irfan"/>
             <br />

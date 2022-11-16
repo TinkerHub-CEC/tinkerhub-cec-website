@@ -110,6 +110,13 @@ We would like to thank these wonderful people who helped us to build this projec
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/enter-opy">
+            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
+            <br />
+            <sub><b>Vivek Vijayan</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Sreyas62">
             <img src="https://avatars.githubusercontent.com/u/96684846?v=4" width="100;" alt="Sreyas62"/>
             <br />

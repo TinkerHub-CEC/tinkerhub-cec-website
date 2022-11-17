@@ -1,7 +1,17 @@
 import React from "react";
 import {Container,Heading,Container1,Block1,Block2,Heading1,Container2,Label1,Input1,MessButton,Textarea1,Box,Box1,Box2,Box3,Box4} from './ContactUsStyles'
+import emailjs from 'emailjs-com';
 
 export const  Contact = () => {
+   function sendEmail(e){
+      e.preventDefault();
+
+      emailjs.sendForm("service_6737jb8","template_1tlgige",e.target,"BikPyNKzx27u_7t21").then((result) => {
+         window.location.reload()  
+     }, (error) => {
+         console.log(error.text);
+     });
+   }
     return(
         <Container>
             <Heading>Connect with Us </Heading>
@@ -9,7 +19,7 @@ export const  Contact = () => {
              <Block1 src="/images/contact-us.png " alt="Contact us image"></Block1>
              <Block2>
                 <Heading1>We would love to hear from you.</Heading1>
-                <Container2>
+                <Container2 onSubmit={sendEmail}>
                   <Box>
                     <Box1>
                        <Label1 htmlFor="name">Your Name (required)</Label1>

@@ -21,9 +21,9 @@ font-family: 'Raleway';
 
 
 @media screen and (max-width:768px){
-    text-align:center;
-    padding-left:0em;
-    font-size:100px;
+    text-align:left;
+    padding-left:0.5em;
+    font-size:150px;
     word-spacing:0.3em;
 }
 `;
@@ -55,7 +55,7 @@ height:35em;
 export const Block2 = styled.div`
  
 @media screen and (max-width:768px){
-     margin-left:11em;
+     margin-left:7em;
      margin-top:3em;
 }
 
@@ -67,14 +67,16 @@ font-family: 'Raleway';
  word-spacing:5px;
 
  @media screen and (max-width:768px){
-    font-size:4em;
+    font-size:5.1em;
     padding-bottom:1.2em;
  }
 `;
 
 export const Container2  = styled.form`
 
-
+@media screen and (max-width:768px){
+    width:78em;
+}
 
 
 `;
@@ -87,7 +89,8 @@ font-size: 18px;
 line-height: 38px;
 
 @media screen and (max-width:768px){
-    font-size:2.5em;
+    font-size:3.1em;
+    
 }
 
 `;
@@ -102,9 +105,10 @@ display:block;
 
 @media screen and (max-width:768px){
     margin-top:2em;
-    width:30em;
-    height:6em;
-    font-size:1.1em;
+    width:100%;
+    height:4.5em;
+    font-size:3em;
+    
 }
 `;
 
@@ -119,17 +123,18 @@ font-weight:700;
 margin-top:2em;
 margin-bottom:10em;
 cursor:pointer;
+transition:all  0.5s ease-in-out;
 
 &:hover{
     transform: scale(1.1);
-    transition-duration: 0.5s;
+     
 }
 
 @media screen and (max-width:768px){
  margin-top:3em;
  width:11em;
  height:3.5em; 
- font-size:1.5em
+ font-size:2.5em
 }
 `;
 
@@ -140,12 +145,13 @@ border: 1px solid #000000;
 border-radius: 10px;
 display:block;
 padding:2em;
+resize:vertical;
 
 @media screen and (max-width:768px){
     margin-top:2em;
-    width:65em;
-    height:16em;
-    font-size:1.1em;
+    width:100%;
+    height:18em;
+    font-size:3em;
     
 }
 

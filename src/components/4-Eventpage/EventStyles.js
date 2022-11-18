@@ -2,8 +2,8 @@ import styled from "styled-components";
 
  export const Heading =styled.h1`
   margin-left: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 40px;
   align-self: flex-start;
   font-family: Segoe; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 `;
@@ -11,14 +11,15 @@ import styled from "styled-components";
 export const Button = styled.button`
   background-color: #d9eaf0 ;
   color: #0096FF;
-  border: none;  
+  border-radius:15px;
   cursor: pointer;
-  box-shadow: none;  
-  border-radius: 15px; 
-  font-size: 15px;
-  border-spacing: 10px;
+  border: none;  
   margin-left: 30px;
   margin-bottom: 5px;
+  padding-left:4px;
+  padding-right:4px;
+  padding-top:2px;
+  padding-bottom:2px;
   `;
   export const Container = styled.div`
   margin-top: 50px;
@@ -26,12 +27,8 @@ export const Button = styled.button`
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,3fr));
-    grid-gap:80px;
+  grid-gap:80px;
  
-   
-  
-
-
 `;
 export const Row = styled.div`
    content: "";
@@ -45,7 +42,8 @@ export const Card= styled.div`
     max-width: 300px;
     margin-right:10px;
     margin-left: 10px;
-border-radius:10px;
+ border-radius:10px;
+ cursor: pointer;
 `;
 
 export const Title= styled.h2`
@@ -67,7 +65,7 @@ margin-top:15px;
 
 `;
 
-export const P = styled.p`
+export const Paragraph= styled.p`
   font-size: small;
   margin-left:8px;
   margin-right:8px;
@@ -80,4 +78,8 @@ height: 180px;
    display:block;
     border-top-left-radius: 10px;
 border-top-right-radius: 10px;
+`;
+export const All = styled.button`
+
+
 `;

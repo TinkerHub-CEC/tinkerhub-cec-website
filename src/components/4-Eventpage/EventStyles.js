@@ -20,26 +20,24 @@ export const Button = styled.button`
   padding-right:4px;
   padding-top:2px;
   padding-bottom:2px;
+
   `;
   export const Container = styled.div`
-  margin-top: 50px;
-  float: center;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,3fr));
+   margin-top: 50px;
+   float: center;
+   padding: 10px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
   grid-gap:80px;
- 
-`;
-export const Row = styled.div`
-   content: "";
-   display: table;
+   grid-auto-rows: auto; 
+ `;
 
-`;
 export const Card= styled.div`
     align-items: center;
     border: 0.5px solid grey;
-    height:410px;
+    max-height:600px;
     max-width: 300px;
+    min-width: 280px;
     margin-right:10px;
     margin-left: 10px;
  border-radius:10px;
@@ -47,9 +45,9 @@ export const Card= styled.div`
 `;
 
 export const Title= styled.h2`
-        margin-top: 30px;
+        margin-top: 12px;
         text-align: center;
-         margin-bottom: 8px;
+         margin-bottom: 5px;
          font-family: Varela; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
     `;
          
@@ -58,10 +56,10 @@ export const Span = styled.span`
 font-size:small;
 color: gray;
 display:inline-block;
-padding-right:30px;
 padding-left:10px;
+padding-right:20px;
 position: relative;left: 2em;
-margin-top:15px;
+margin-bottom:5px;
 
 `;
 
@@ -78,8 +76,4 @@ height: 180px;
    display:block;
     border-top-left-radius: 10px;
 border-top-right-radius: 10px;
-`;
-export const All = styled.button`
-
-
 `;

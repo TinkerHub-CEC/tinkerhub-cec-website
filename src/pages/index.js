@@ -21,7 +21,7 @@ const Home = () => {
       <Meet/>
       <Contact/>
       <Footer />
-      </Layout>
+    </Layout>
     
   );
 };

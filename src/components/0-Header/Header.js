@@ -1,27 +1,45 @@
 import Link from 'next/link'
-import React from 'react';
-import { Container,Row,HeaderImage,HeaderContent,L,Headerlogo,LImage,I} from "./HeaderStyles";
+import React, { useState } from 'react';
+import { Navbar,Nav_logo,Logo,Nav_items,Bar,Nav_toggle,L,Nav1,Nav2,Nav_media,Media_logo} from "./HeaderStyles";
 
-function Welcome(){
+const Welcome = () => {
+    const [isOpen, setIsOpen]=useState(false);
     return(
-        <Container>
-            <Row>                
-                <I href="#"><HeaderImage src="/images/Logo(Black).png"/></I>
+            <Navbar>                
+                <Nav_logo href="#">
+                    <Logo src="/images/Logo(Black).png"/>
+                </Nav_logo>
                 
-                <HeaderContent>
-                    <Link href="/" passHref><L>Home</L></Link>
-                    <Link href="/about" passHref><L>About</L></Link>  
-                    <Link href="/events" passHref><L>Events</L></Link>          
-                </HeaderContent>
+                <Nav_items>
+                    <Nav1>
+                        <Link href="/" passHref><L>Home</L></Link>
+                        <Link href="/about" passHref><L>About</L></Link>  
+                        <Link href="/events" passHref><L>Events</L></Link>          
+                    </Nav1>
 
+                    <Nav2>
 
-                <Headerlogo>
-                    <I href="https://linktr.ee/Tinkerhub_cec"><LImage src="/images/Linktree.png"/></I>
-                    <I href="https://www.linkedin.com/company/tinkerhub-cec/"><LImage src="/images/LinkedIn.png"/></I>
-                    <I href="https://www.instagram.com/tinkerhub.cec/"><LImage src="/images/Instagram logo.png"/></I>
-                </Headerlogo>
-            </Row>
-        </Container>
+                        <Nav_media href="https://linktr.ee/Tinkerhub_cec">
+                            <Media_logo src="/images/Linktree.png"/>
+                        </Nav_media>
+                        <Nav_media href="https://www.linkedin.com/company/tinkerhub-cec/">
+                            <Media_logo src="/images/LinkedIn.png"/>
+                        </Nav_media>
+                        <Nav_media href="https://www.instagram.com/tinkerhub.cec/">
+                            <Media_logo src="/images/Instagram logo.png"/>
+                        </Nav_media>
+
+                    </Nav2>
+
+                </Nav_items>
+
+                <Nav_toggle>
+                    <Bar>
+
+                    </Bar>
+                </Nav_toggle>            
+            </Navbar>
+       
     )
         
     

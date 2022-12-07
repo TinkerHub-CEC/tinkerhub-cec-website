@@ -81,17 +81,17 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Rahul9649">
-            <img src="https://avatars.githubusercontent.com/u/97725003?v=4" width="100;" alt="Rahul9649"/>
-            <br />
-            <sub><b>Rahul</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/bestin015">
             <img src="https://avatars.githubusercontent.com/u/97306433?v=4" width="100;" alt="bestin015"/>
             <br />
             <sub><b>Bestin K Benny</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Rahul9649">
+            <img src="https://avatars.githubusercontent.com/u/97725003?v=4" width="100;" alt="Rahul9649"/>
+            <br />
+            <sub><b>Rahul</b></sub>
         </a>
     </td>
     <td align="center">

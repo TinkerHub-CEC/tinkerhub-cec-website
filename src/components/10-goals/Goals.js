@@ -17,7 +17,7 @@ function Initiatives() {
             </Row>
 
             <Row>
-                <Heading2>Career-Training</Heading2>
+                <Heading2>3.Career-Training</Heading2>
                 <Box>By building integrated collection of programs intended to develop students&apos; core academic, technical and employability skills.</Box>
             </Row>
         </Container>

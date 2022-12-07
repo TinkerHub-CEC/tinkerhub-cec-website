@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React, { useState } from 'react';
-import { Navbar,Nav_logo,Logo,Nav_items,Bar,Nav_toggle,L,Nav1,Nav2,Nav_media,Media_logo} from "./HeaderStyles";
+import { Navbar,Nav_logo,Logo,Nav_items,Bar,Nav_toggle,Menu,Nav1,Nav2,Nav_media,Media_logo} from "./HeaderStyles";
 
 const Welcome = () => {
     const [isOpen, setIsOpen]=useState(false);
@@ -8,17 +8,23 @@ const Welcome = () => {
             <Navbar>                
                 <Nav_logo href="#">
                     <Logo src="/images/Logo(Black).png"/>
-                </Nav_logo>
-                
-                <Nav_items>
+                </Nav_logo>  
+
+                <Nav_toggle onClick={() => setIsOpen(!isOpen)}>
+                    <span />
+                    <span />
+                    <span />
+                </Nav_toggle> 
+ 
+
+                <Nav_items isOpen={isOpen}>
                     <Nav1>
-                        <Link href="/" passHref><L>Home</L></Link>
-                        <Link href="/about" passHref><L>About</L></Link>  
-                        <Link href="/events" passHref><L>Events</L></Link>          
+                        <Link href="/" passHref><Menu>Home</Menu></Link>
+                        <Link href="/about" passHref><Menu>About</Menu></Link>  
+                        <Link href="/events" passHref><Menu>Events</Menu></Link>          
                     </Nav1>
 
                     <Nav2>
-
                         <Nav_media href="https://linktr.ee/Tinkerhub_cec">
                             <Media_logo src="/images/Linktree.png"/>
                         </Nav_media>
@@ -28,16 +34,11 @@ const Welcome = () => {
                         <Nav_media href="https://www.instagram.com/tinkerhub.cec/">
                             <Media_logo src="/images/Instagram logo.png"/>
                         </Nav_media>
-
                     </Nav2>
 
                 </Nav_items>
 
-                <Nav_toggle>
-                    <Bar>
-
-                    </Bar>
-                </Nav_toggle>            
+                           
             </Navbar>
        
     )

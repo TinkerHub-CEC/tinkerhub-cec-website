@@ -5,7 +5,6 @@ margin-top: 4em;
 `;
 
 export const Heading = styled.div`
-margin-left: 20%;
 font-size: 3.2rem;
 font-weight: 800;
 width: 100%;

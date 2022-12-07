@@ -7,8 +7,6 @@ margin-bottom:0;
 `;
 
 export const Row = styled.div`
-margin-left:5%;
-width:100%;
 `;
 
 export const Text =styled.h2`
@@ -17,15 +15,13 @@ padding:30px;
 `;
 
 export const Holder=styled.div`
-margin-left:4%;
-width:100%;
 display:flex;
 flex-direction:row;
 padding-top:20px;
 `;
 
 export const Content =styled.div`
-margin-right:200px;
+
 `;
 
 

@@ -5,9 +5,9 @@ export const Container = styled.div`
 box-sizing:border-box;
 padding:0;
 margin:0;
-
+width:100%;
 @media screen and (max-width:768px){
-    width:90em;
+
 
 }
 `;
@@ -42,14 +42,10 @@ display:flex;
 
 export const Block1  = styled.img`
 margin-top:4em;
-width:45%;
-height:35em;
 
+height:25em;
 @media screen and (max-width:768px){
-    width:90em;
-    height:50em;
 }
-    
 `;
 
 export const Block2 = styled.div`

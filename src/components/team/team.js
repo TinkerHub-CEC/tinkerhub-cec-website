@@ -3,6 +3,7 @@ import {Container,Division1,Division2,Division3,Division4,U,U1,U2,U3,U4,U5,U6,Di
 function Team() {
     return (
         <Container>
+            
             <HeroImage21 src="\images\photo_2022-10-06_20-25-42.jpg"/>
             
             <br/>
@@ -18,76 +19,156 @@ function Team() {
             <LargeHeading1><U><b>Community Tinkerers 2022-2023</b></U></LargeHeading1>
             <br/>
             <br/>
+            <Holder>
             <Division1>
                 
-                <HeroImage src="/images/profile.png"/>
-                
-                
-                
-                
+                <HeroImage src="/images/profile.png"/> 
+                <Name>Sreelekshmi M</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+                <Division1>
                 <HeroImage1 src="/images/profile.png"/>
-               
-                
-                
-            </Division1>
-            <br/>
-            <br/>
-            <br/>
-           <Division1> 
+                <Name>Sreelekshmi M dupe</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+            
+            </Holder>
+            
+            <Holder>
+                <Division1> 
             <HeroImage2 src="/images/profile.png"/>
-            <HeroImage3 src="/images/profile.png"/>
+            <Name>Alwin John</Name>
+                    <Position>Tech Lead</Position>
+                    </Division1>
+                    <Division1>
+                        <HeroImage3 src="/images/profile.png"/>
+                        <Name>Alwin John V1</Name>
+                    <Position>Tech Lead</Position>
+                    </Division1>
+                    <Division1>       
             <HeroImage4 src="/images/profile.png"/>
+            <Name>Alwin John V2</Name>
+                    <Position>Tech Lead</Position>
             </Division1>
-            <br/>
-            <br/>
-            <br/>
-            <Division1>
+            </Holder>
+    
+            <Holder>
+                <Division1> 
             <HeroImage5 src="/images/profile.png"/>
-            <HeroImage6 src="/images/profile.png"/>
+            <Name>Alwin John V4</Name>
+                    <Position>Tech Lead</Position>
+                    </Division1>
+                    <Division1>
+                        <HeroImage6 src="/images/profile.png"/>
+                        <Name>Harikrishnan</Name>
+                    <Position>Campus Lead</Position>
+                    </Division1>
+                    <Division1>       
             <HeroImage7 src="/images/profile.png"/>
-            <HeroImage8 src="/images/profile.png"/>
+            <Name>Akshay</Name>
+                    <Position>Campus Lead</Position>
             </Division1>
-            <br/>
-            <br/>
-            <br/>
+            <Division1>       
+            <HeroImage8 src="/images/profile.png"/>
+            <Name>Alwin John V5</Name>
+                    <Position>Tech Lead</Position>
+            </Division1>
+            </Holder>
+            
             <Division4>
             <Division2>
             <LargeHeading2><U1><b>Design Team</b></U1></LargeHeading2> 
             <br/> 
-            <HeroImage9 src="/images/profile.png"/>
-            <HeroImage10 src="/images/profile.png"/>
+            <Holder>
+            <Division1>
+                
+                <HeroImage9 src="/images/profile.png"/> 
+                <Name>Sreelekshmi M</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage10 src="/images/profile.png"/>
+                <Name>Sreelekshmi M dupe</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division2>
-            <br/>
-            <br/>
-            <br/>
+            
             <Division3>
             <LargeHeading3><U2><b>Content & PM</b></U2> </LargeHeading3>
             <br/>
-            <HeroImage11 src="/images/profile.png"/>
-            <HeroImage12 src="/images/profile.png"/>
+            <Holder>
+            <Division1>
+                
+                <HeroImage11 src="/images/profile.png"/> 
+                <Name>Alwin John V4</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage12 src="/images/profile.png"/>
+                <Name>Harikrishnan</Name>
+                    <Position>Campus lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division3>
             </Division4>
             <Division5>
             <LargeHeading4><U3><b>Tech Team</b></U3> </LargeHeading4> 
             <br/>
-            <HeroImage13 src="/images/profile.png"/>
-            <HeroImage14 src="/images/profile.png"/>
+            <Holder>
+            <Division1>
+                
+                <HeroImage13 src="/images/profile.png"/> 
+                <Name>Alwin John</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage14 src="/images/profile.png"/>
+                <Name>Alwin John V4</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division5>
-            <br/>
-            <br/>
-            <br/>
+            
             <Division10>
             <Division6>
             <LargeHeading5><U4><b>Open Source Team</b></U4></LargeHeading5> 
             <br/>
-            <HeroImage15 src="/images/profile.png"/>
-            <HeroImage16 src="/images/profile.png"/> 
+            <Holder>
+            <Division1>
+                
+                <HeroImage15 src="/images/profile.png"/> 
+                <Name>Alwin John V2</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage16 src="/images/profile.png"/>
+                <Name>Alwin John V5</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division6>
             <Division7>
             <LargeHeading6><U5><b>Women In Tech</b></U5></LargeHeading6> 
             <br/>
-            <HeroImage17 src="/images/profile.png"/>
-            <HeroImage18 src="/images/profile.png"/>
+            <Holder>
+            <Division1>
+                
+                <HeroImage17 src="/images/profile.png"/> 
+                <Name>Sreelekshmi M</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage18 src="/images/profile.png"/>
+                <Name>Sreelekshmi M</Name>
+                    <Position>Creative lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division7>
             </Division10>
             <br/>
@@ -96,8 +177,20 @@ function Team() {
             <Division8>
             <LargeHeading7><U6><b>Mentors</b></U6></LargeHeading7>
             <br/>
-            <HeroImage19 src="/images/profile.png"/>
-            <HeroImage20 src="/images/profile.png"/> 
+            <Holder>
+            <Division1>
+                
+                <HeroImage19 src="/images/profile.png"/> 
+                <Name>Alwin John</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+                <Division1>
+                <HeroImage20 src="/images/profile.png"/>
+                <Name>Alwin John V1</Name>
+                    <Position>Tech lead</Position>
+                </Division1>
+            
+            </Holder>
             </Division8>
             
 

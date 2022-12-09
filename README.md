@@ -67,10 +67,10 @@ We would like to thank these wonderful people who helped us to build this projec
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/rithins36">
-            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+        <a href="https://github.com/enter-opy">
+            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
             <br />
-            <sub><b>Rithin Samuel</b></sub>
+            <sub><b>Vivek Vijayan</b></sub>
         </a>
     </td>
     <td align="center">
@@ -78,6 +78,13 @@ We would like to thank these wonderful people who helped us to build this projec
             <img src="https://avatars.githubusercontent.com/u/47777599?v=4" width="100;" alt="Dexters-Hub"/>
             <br />
             <sub><b>Alwin John</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/rithins36">
+            <img src="https://avatars.githubusercontent.com/u/84023344?v=4" width="100;" alt="rithins36"/>
+            <br />
+            <sub><b>Rithin Samuel</b></sub>
         </a>
     </td>
     <td align="center">
@@ -95,13 +102,6 @@ We would like to thank these wonderful people who helped us to build this projec
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/l0gicerr0r">
-            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
-            <br />
-            <sub><b>Alfi Thomas</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Abin-T-Sunil">
             <img src="https://avatars.githubusercontent.com/u/80634744?v=4" width="100;" alt="Abin-T-Sunil"/>
             <br />
@@ -110,10 +110,10 @@ We would like to thank these wonderful people who helped us to build this projec
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/enter-opy">
-            <img src="https://avatars.githubusercontent.com/u/93899655?v=4" width="100;" alt="enter-opy"/>
+        <a href="https://github.com/l0gicerr0r">
+            <img src="https://avatars.githubusercontent.com/u/91952009?v=4" width="100;" alt="l0gicerr0r"/>
             <br />
-            <sub><b>Vivek Vijayan</b></sub>
+            <sub><b>Alfi Thomas</b></sub>
         </a>
     </td>
     <td align="center">

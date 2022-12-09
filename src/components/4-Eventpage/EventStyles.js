@@ -10,7 +10,6 @@ import styled from "styled-components";
 
 export const Button = styled.button`
 display:relative;
-justify-content: ;
   background-color: #d9eaf0 ;
   color: #0096FF;
   border-radius:15px;
@@ -23,19 +22,16 @@ justify-content: ;
   padding-top:2px;
   padding-bottom:2px;
   @media screen and (max-width:768px){
-    
-    width:auto;
-    height:50px;
-    
-   }
-  `;
+    height:63px;
+     `;
+  
   export const Container = styled.div`
    margin-top: 50px;
    float: center;
    padding: 10px;
    display: grid;
-   grid-template-columns: repeat(auto-fit,minmax(300px,2fr) );
-  grid-gap:3rem;
+   grid-template-columns: repeat(auto-fit,minmax(300px,3fr) );
+   grid-gap:3rem;
    grid-auto-rows: auto; 
  `;
 
@@ -49,8 +45,9 @@ export const Card= styled.div`
  border-radius:10px;
  cursor: pointer;
  @media screen and (max-width:768px){
-  width:110rem;
+  width:105rem;
   height:100%;
+  margin:10px;
   
  }
 `;
@@ -87,7 +84,7 @@ export const Card_image = styled.img`
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     @media screen and (max-width:768px){
-  width:110rem;
+  width:105rem;
   height:40rem;
   
  }
@@ -95,4 +92,5 @@ export const Card_image = styled.img`
 `;
 export const All_buttons= styled.div`
 display:flex; 
+height:10px
 `;

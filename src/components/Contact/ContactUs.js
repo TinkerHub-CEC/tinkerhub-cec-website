@@ -1,5 +1,5 @@
 import React from "react";
-import {Container,Heading,Container1,Block1,Block2,Heading1,Container2,Label1,Input1,MessButton,Textarea1,Box,Box1,Box2,Box3,Box4} from './ContactUsStyles'
+import {Container,Heading,Container1,Block1,Block2,Heading1,Container2,Label1,Input1,MessButton,Textarea1,Box,Box1,Box2,Box3,Box4,Head} from './ContactUsStyles'
 import emailjs from 'emailjs-com';
 
 export const  Contact = () => {
@@ -14,7 +14,9 @@ export const  Contact = () => {
    }
     return(
         <Container>
+         <Head>
             <Heading>Connect with Us </Heading>
+         </Head>
             <Container1>
              <Block1 src="/images/contact-us.png " alt="Contact us image"></Block1>
              <Block2>

@@ -9,7 +9,7 @@ import styled from "styled-components";
 `;
 
 export const Button = styled.button`
-display:relative;
+  display:relative;
   background-color: #d9eaf0 ;
   color: #0096FF;
   border-radius:15px;
@@ -92,5 +92,4 @@ export const Card_image = styled.img`
 `;
 export const All_buttons= styled.div`
 display:flex; 
-height:10px
 `;

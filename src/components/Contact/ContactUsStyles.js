@@ -22,12 +22,22 @@ font-family: 'Raleway';
 
 @media screen and (max-width:768px){
     text-align:left;
-    padding-left:0.5em;
-    font-size:150px;
+    padding-left:0.2em;
+    padding-top:1em;
+    margin-left:1em;
+    font-size:130px;
     word-spacing:0.3em;
+    
 }
 `;
 
+export const Head  = styled.p`
+width:90em;
+
+@media screen and (max-width:768px){
+    
+}
+`;
 export const Container1  = styled.div`
 padding-top:3em;
 display:flex;
@@ -42,14 +52,15 @@ display:flex;
 
 export const Block1  = styled.img`
 margin-top:4em;
-
+margin-left:2em;
 height:25em;
 @media screen and (max-width:768px){
+    height:50em;
 }
 `;
 
 export const Block2 = styled.div`
- 
+ margin-left:8em;
 @media screen and (max-width:768px){
      margin-left:7em;
      margin-top:3em;
@@ -84,6 +95,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 38px;
 
+
 @media screen and (max-width:768px){
     font-size:3.1em;
     
@@ -98,6 +110,7 @@ height: 3em;
 border: 1px solid #000000;
 border-radius: 10px;
 display:block;
+margin-top:1em;
 
 @media screen and (max-width:768px){
     margin-top:2em;
@@ -142,6 +155,7 @@ border-radius: 10px;
 display:block;
 padding:2em;
 resize:vertical;
+margin-top:1em;
 
 @media screen and (max-width:768px){
     margin-top:2em;
@@ -174,7 +188,7 @@ export const Box4 = styled.div`
 
 export const Box = styled.div`
 display:flex;
-margin-bottom:5em;
+margin-bottom:4em;
 
 `;
 

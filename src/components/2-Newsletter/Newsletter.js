@@ -1,7 +1,9 @@
 import React from "react";
+
 import {Box,Content,Heading,Form,Column,BlueButton} from './NewsletterStyles'
 
 export const Letter = () => {
+    
     return (
         <Box>
             <Heading>
@@ -13,10 +15,17 @@ export const Letter = () => {
             <Form>
                 
                 <br/><label htmlFor="email"></label>
-                <Column type="text" id="email" name="email" placeholder="yourname@gmail.com" /><br/><br/>
+                <Column 
+               
+                type="email" 
+                id="email" name="email"
+                placeholder="yourname@gmail.com" 
+                />
+                <br/><br/>
                 <BlueButton type="submit" value="GET UPDATES"/>
 	    
             </Form>
+        
         </Box>
     )
 }

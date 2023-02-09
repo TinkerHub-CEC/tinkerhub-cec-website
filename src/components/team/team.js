@@ -61,7 +61,7 @@ function Team() {
                     </Division1>
                     <Division1>
                         <HeroImage6 src="/images/Vyshnavi.jpg"/>
-                        <N2>Vyshnavi V</N2>
+                        <N1>Vyshnavi V</N1>
                     <P5>Design Team</P5>
                     </Division1>
                     <Division1>       

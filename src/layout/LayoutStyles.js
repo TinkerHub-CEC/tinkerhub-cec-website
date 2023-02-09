@@ -8,4 +8,8 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 
+@media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+    width: 90em;
+
 `;

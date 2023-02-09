@@ -37,19 +37,20 @@ export const Button = styled.button`
 
 export const Card= styled.div`
     align-items: center;
-    border: 0.5px solid grey;
+    border: 0.5px solid lightgrey;
     max-height:1000px;
     width: 300px;
     margin-right:10px;
     margin-left: 10px;
  border-radius:10px;
  cursor: pointer;
+ position:relative;
+ box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
  @media screen and (max-width:768px){
   width:105rem;
   height:100%;
   margin:10px;
-  
- }
+   }
 `;
 
 export const Title= styled.h2`
@@ -66,7 +67,8 @@ color: gray;
 display:inline-block;
 padding-left:10px;
 padding-right:20px;
-position: relative;left: 2em;
+position: relative;
+left: 0em;
 margin-bottom:5px;
 
 `;
@@ -83,6 +85,7 @@ export const Card_image = styled.img`
     display:block;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
     @media screen and (max-width:768px){
   width:105rem;
   height:40rem;
@@ -92,4 +95,18 @@ export const Card_image = styled.img`
 `;
 export const All_buttons= styled.div`
 display:flex; 
+`;
+export const SpanElements=styled.div`
+max-width: 100%;
+width: 100%;
+display:block;
+float:left;
+text-align:center;
+align-items:start;
+justify-content: space-between;
+position: absolute;
+left:0;
+bottom:0;
+right:0;
+margin:auto;
 `;

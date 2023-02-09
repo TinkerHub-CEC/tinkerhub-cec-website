@@ -18,10 +18,11 @@ text-align: center;
 `;
 export const Division1= styled.div`
 @media screen and (max-width:768px){
-    width:90em;
+    
     display:flex;
-    flex-direction:column;
-    align-item:center;
+    align-items: center;
+    
+    
 }
 
 `;
@@ -67,7 +68,7 @@ display: flex;
 export const HeroImage = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 646px;
+
 
 
 `;
@@ -80,13 +81,14 @@ margin-left: 45px;
 export const HeroImage2 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 566px;
+
+margin-left: 15px;
 
 `;
 export const HeroImage3 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 58px;
+margin-left: 40px;
 
 
 
@@ -101,14 +103,14 @@ margin-left: 51px;
 export const HeroImage5 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 500px;
-margin-right: 20px;
+
+margin-left: 15px;
 `;
 export const HeroImage6 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 31px;
-margin-right: 20px;
+
+margin-left: 20px;
 `;
 export const HeroImage7 = styled.img`
 width: 6em;
@@ -125,7 +127,7 @@ margin-right: 20px;
 export const HeroImage9 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 151px;
+
 ;
 `;
 export const HeroImage10 = styled.img`
@@ -136,7 +138,7 @@ margin-left: 36px;
 export const HeroImage11 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 134px;
+
 `;
 export const HeroImage12 = styled.img`
 width: 6em;
@@ -178,8 +180,7 @@ margin-left: 36px;
 `;
 export const HeroImage21 = styled.img`
 width: 22em;
-
-margin-left: 577px;
+align-self: center;
 `;
 export const HeroImage22 = styled.img`
 width: 4em;
@@ -277,6 +278,7 @@ export const Holder=styled.div`
 
 display:flex;
 flex-direction:row;
+justify-content:center;
 padding-top:20px;
 
 @media screen and (max-width:768px){
@@ -309,17 +311,61 @@ export const U6 = styled.u`
 text-decoration-color:#1438c7;
 `;
 export const Name =styled.h4`
-text-align: center;
-padding:10px;
+text-align: right;
+
 padding-bottom:5px;
 color:black;
-
-
 `
-export const Position =styled.p`
+
+export const N1 =styled.h4`
+text-align: right;
+padding-right:7px;
+padding-bottom:5px;
+color:black;
+`
+export const N2 =styled.h4`
+text-align: center;
+padding-left:10px;
+padding-bottom:5px;
+color:black;
+`
+
+export const P1 =styled.p`
+text-align: right;
+color:black;
+padding-bottom:50px;
+padding-right:0.3em;
+`;
+export const P2 =styled.p`
+text-align: right;
+color:black;
+padding-bottom:50px;
+padding-right:1em;
+`;
+
+export const P3 =styled.p`
+text-align: right;
+color:black;
+padding-bottom:50px;
+padding-right:1em;
+`;
+export const P4 =styled.p`
+text-align: right;
+color:black;
+padding-bottom:50px;
+padding-right:0em;
+`;
+
+export const P5 =styled.p`
 text-align: center;
 color:black;
 padding-bottom:50px;
+padding-left:1em;
 `;
-
+export const P6 =styled.p`
+text-align: right;
+color:black;
+padding-bottom:50px;
+padding-right:1.5em;
+`;
 

@@ -16,15 +16,15 @@ const Meet = () =>{
                 </Content>
 
                 <Content>
-                    <PeopleImage src="/images/profile.png"/>
+                    <PeopleImage src="/images/Rithin.jpg"/>
                     <Name>Rithin Samuel</Name>
                     <Position>Javascript TinkerHub <br></br>Learning Facilitator</Position>
                 </Content>
 
                 <Content>
-                    <PeopleImage src="/images/profile.png"/>
-                    <Name>PlaceHolder</Name>
-                    <Position>PlaceHolder</Position>
+                    <PeopleImage src="/images/Akshay.jpeg"/>
+                    <Name>Akshay Pradeep</Name>
+                    <Position>CEO Octagon Technologies</Position>
                 </Content>
 
             </Holder>

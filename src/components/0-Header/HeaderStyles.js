@@ -5,8 +5,17 @@ display:flex;
 flex-direction:row;
 justify-content:space-between;
 flex-wrap:wrap;
-padding:10px 50px 0 50px;
-margin:auto;
+position:absolute;
+top:4%;
+width:98vw;
+padding:0 4rem;
+
+@media screen and (max-width:768px){
+    position:relative;
+    padding:0 8rem 0 1rem;
+    top:1%;
+    left:0%;
+    right:0%;
  }
 `;
 
@@ -16,8 +25,12 @@ export const Nav_logo=styled.a`
 
 
 export const Logo=styled.img`
-width:350px;
-height:100px;
+width:260px;
+height:94px;
+
+@media screen and (max-width:768px){
+    width:600px;
+    height:200px;
 `;
 
 export const Nav_toggle=styled.div`
@@ -26,10 +39,10 @@ export const Nav_toggle=styled.div`
     cursor: pointer;
 
     span{
-        height: 4px;
-        width: 35px;
+        height: 16px;
+        width: 100px;
         background: #7b7fda;
-        margin-bottom: 4px;
+        margin-bottom: 16px;
         border-radius: 5px;
     }
 
@@ -40,12 +53,19 @@ export const Nav_toggle=styled.div`
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        margin-top: 5rem;
     }
 `;
 
 export const Nav_items=styled.div`
 display:flex;
 justify-content:space-between;
+padding-left:130px;
+
+@media screen and (max-width:1440px){
+    padding-left:0px;
+    
+}
 
 @media screen and (max-width:768px){
     overflow:hidden;
@@ -60,6 +80,7 @@ justify-content:space-between;
 export const Nav1=styled.ul`
 // margin-left:150px;
 margin-top:30px;
+margin-right:82px;
 justify-content:space-between;
 // align-items:center;
 @media screen and (max-width:768px){
@@ -75,7 +96,7 @@ color:black;
 margin-right:140px;
 padding-bottom:15px;
 font-size:1.7em;
-// font-weight:500;
+font-weight:400;
 position:relative;
 opacity:0.8;
 &:hover{
@@ -101,7 +122,7 @@ opacity:0.8;
 `;
 
 export const Nav2=styled.div`
-padding-top: 20px;
+padding-top: 16px;
 display:flex;
 justify-content:space-between;
 

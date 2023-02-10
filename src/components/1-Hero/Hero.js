@@ -9,7 +9,7 @@ export const Hero=()=> {
 
             <HeroContentAction>
                 <LargeHeading>TinkerHub CE Chengannur</LargeHeading>
-                <HeroParagraph>Official TinkerHub Chapter of College of Engineering, Chengannur</HeroParagraph>
+                <HeroParagraph>Official TinkerHub Chapter of <br></br>College of Engineering, Chengannur</HeroParagraph>
                 <RedActionButton href="https://join.tinkerhub.org/" target="_blank">Join Us</RedActionButton>
                 
             </HeroContentAction>

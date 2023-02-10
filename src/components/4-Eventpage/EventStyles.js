@@ -21,7 +21,7 @@ export const Button = styled.button`
   padding-right:4px;
   padding-top:2px;
   padding-bottom:2px;
-  @media screen and (max-width:768px){
+  @media screen and (max-width:720px){
     height:63px;
      `;
   
@@ -46,14 +46,15 @@ export const Card= styled.div`
  cursor: pointer;
  position:relative;
  box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
- @media screen and (max-width:768px){
-  width:105rem;
+ @media screen and (max-width:720px){
+  width:50rem;
   height:100%;
   margin:10px;
    }
 `;
 
 export const Title= styled.h2`
+        color: #4b2f00;
         margin-top: 12px;
         text-align: center;
          margin-bottom: 5px;
@@ -86,8 +87,8 @@ export const Card_image = styled.img`
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
-    @media screen and (max-width:768px){
-  width:105rem;
+    @media screen and (max-width:720px){
+  width:50rem;
   height:40rem;
   
  }

@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 margin:0;
-margin-top: 4em;
+margin-top: 9em;
 box-sizing:border-box;
 padding:0;
 width:100%;
-padding-bottom: 80px;
+padding-bottom: 50px;
 background-color: #2074FF;
 
 @media screen and (max-width:768px){
@@ -16,7 +16,7 @@ background-color: #2074FF;
 `;
 
 export const Heading = styled.div`
-padding-top: 50px;
+padding-top: 40px;
 color: white;
 margin-left: 5%;
 font-size: 3.2rem;
@@ -45,7 +45,7 @@ font-weight: 800;
 
 export const Row = styled.div`
 display:flex;
-margin-top: 4em;
+margin-top: 2em;
 border: solid black;
 background-color: white;
 margin-left: 5%;

@@ -4,14 +4,14 @@ const Cards=[
         image:"/images/Websetgo.jpg",
         title:"Web Set Go",
         discription:<p> 
-            ◈Part of: Hactoberfest'22 <br></br><br></br>
+            ◈Part of: Hactoberfest 22 <br></br><br></br>
             ◈Collab : IEDC Bootcamp   <br></br><br></br>
             ◈Date   : 2022 Oct 10-25  <br></br><br></br>
             ◈Time   : 4:00 pm - 5:00 pm <br></br><br></br>
             ◈Mentors:<br></br>
                     - Alwin John (Github Campus Expert)<br></br>
                     - Rithin Samuel(Tech lead @ Tinkerhub CEC)<br></br><br></br>
-            ◈Goal   : To improve the student's abilities and prepare them to design interactive websites on their own.
+            ◈Goal   : To improve the students abilities and prepare them to design interactive websites on their own.
         
         </p> ,
         span1:"HTML",
@@ -31,7 +31,7 @@ const Cards=[
                 - Akshay Pradeep (TLF)<br></br>
                 - Karun S (TLF)<br></br><br></br>
         ◈Participants:  250  <br></br><br></br>     
-        ◈Goal :   To improve the student's abilities and prepare them to develop an Application.
+        ◈Goal :   To improve the students abilities and prepare them to develop an Application.
          </p> ,
         span1:"flutter",
         span2:"Bootcamp",
@@ -45,7 +45,7 @@ const Cards=[
         ◈Collab: IEDC Bootacamp CEC <br></br><br></br>
         ◈Mentors:<br></br><br></br>
                 - Sharan K S (Founder of Starterday Technologies)<br></br><br></br>
-                - Muhammed Iqbal P B (Devops Intern & HAC'KP21  winner)<br></br><br></br>
+                - Muhammed Iqbal P B (Devops Intern & HAC KP21  winner)<br></br><br></br>
         ◈Goal : to provide participants with hands-on experience with an IoT kit while also merging it with projects like Google Assistant, blinking LEDs, and other similar ones to help them grasp it more simply.
         </p> ,
         span1:"IOT",

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons} from './EventStyles';
+import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Card_Content} from './EventStyles';
 import Cards from './Cards'
 export default Event;
 function Event(){
@@ -29,13 +29,14 @@ function Event(){
           <>
           <Card>
             <Card_image src={props.image}></Card_image>
-            <Title>{props.title}</Title>
+           <Card_Content><Title>{props.title}</Title>
             <br></br>
     <Paragraph>{props.discription}</Paragraph>
-       <br></br><Span>{props.span1}</Span>
+       <br></br><SpanElements><Span>{props.span1}</Span>
       <Span>{props.span2}</Span>
       <Span>{props.span3}</Span>                  
-    </Card>
+    </SpanElements> 
+    </Card_Content></Card>
 
           </>
      )

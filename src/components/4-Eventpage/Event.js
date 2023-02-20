@@ -26,7 +26,7 @@ function Event(){
      const {image,title,discription,span1,span2,span3}=props;
      return(
 
-          <Card>
+          <Card key={props.title}>
             <Card_image src={props.image}></Card_image>
             <Title>{props.title}</Title>
             <br></br>

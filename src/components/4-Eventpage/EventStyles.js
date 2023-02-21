@@ -3,12 +3,21 @@ import styled from "styled-components";
  export const Heading =styled.h1`
 color:#2f1b41;
  margin-left: 30px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 40px;
   align-self: flex-start;
-  font-family: Segoe; font-size: 45px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-family: Segoe; 
+  font-size: 45px; 
+  font-style: normal;
+   font-variant: normal;
+    font-weight: 700; 
+    line-height: 26.4px;
 `;
+export const Parent_Conatiner=styled.div`
+// display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 
+`;
 export const Button = styled.button`
   display:relative;
   background-color: #d9eaf0 ;
@@ -22,8 +31,8 @@ export const Button = styled.button`
   padding-right:4px;
   padding-top:2px;
   padding-bottom:2px;
-  @media screen and (max-width:720px){
-    height:63px;
+  @media screen and (max-width:750px){
+    height:63px;}
      `;
   
   export const Container = styled.div`
@@ -31,9 +40,10 @@ export const Button = styled.button`
    float: center;
    padding: 10px;
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr) );
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
    grid-gap:3rem;
    grid-auto-rows: auto; 
+  
  `;
 export const Card= styled.div`
 background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -54,19 +64,21 @@ margin-left: 30px;
   height:630px;
   transition: 0.25s ease-in;
  } 
+
  @media screen and (max-width:720px){
-  width:50rem;
-  height:100%;
-  margin:10px;
-   }
-`;
+  width:100% ;
+  margin:10px;   
+}`;
 
 export const Title= styled.h2`
         color: white;
         margin-top: 170px;
         text-align: center;
          margin-bottom: 5px;
-         font-family: Varela; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+         font-family: Varela; font-size: 24px; 
+         font-style: normal; 
+         font-variant: normal;
+         font-weight: 700; line-height: 26.4px;
     `;
          
 
@@ -105,9 +117,9 @@ export const Card_image = styled.img`
       height:630px;
       transition: 0.25s ease-in;
      } 
-    @media screen and (max-width:720px){
-  width:50rem;
-  height:40rem;
+  //   @media screen and (max-width:720px){
+  // width:50rem;
+  // height:40rem;
   
  }
    

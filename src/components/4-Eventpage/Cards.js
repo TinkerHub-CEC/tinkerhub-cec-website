@@ -4,8 +4,8 @@ const Cards=[
         image:"/images/Websetgo.jpg",
         title:"Web Set Go",
         discription:<p> 
-        'Web Set Go', a two-week workshop on web programming was organised by TinkerHub CE Chengannur and IEDC Bootcamp CEC as a 
-        part of Hacktoberfest'22. It was slated to take place on October 10 to October 25, 2022, from 4:00 pm to 5:00 pm.
+        &apos;Web Set Go&apos;, a two-week workshop on web programming was organised by TinkerHub CE Chengannur and IEDC Bootcamp CEC as a 
+        part of Hacktoberfest&apos;22. It was slated to take place on October 10 to October 25, 2022, from 4:00 pm to 5:00 pm.
          Alwin John, GitHub Campus Expert, and Rithin Samuel, Tech Lead at TinkerHub CE Chengannur and Jeffin G. Benny, TLF mentor,
           led the workshop. The main objective of this workshop was to help the students develop their skills and get them ready to
            create interactive websites on their own.
@@ -33,7 +33,7 @@ const Cards=[
         title:"IOT Workshop",
         discription:<p> 
        TinkerHub CE Chengannur in collaboration with  IEDC Bootcamp CEC conducted a 2-day offline IoT Workshop mentored 
-       by Sharan K S, Founder of Starterday Technologies and Muhammed Iqbal P B, Devops Intern and HAC'KP 21 Winner to
+       by Sharan K S, Founder of Starterday Technologies and Muhammed Iqbal P B, Devops Intern and HAC&apos;KP 21 Winner to
        provide hands-on experience and merge IoT projects with Google Assistant, blinking LEDs, and other similar projects
        to help students learn more about IoT.
        </p> ,
@@ -46,7 +46,7 @@ const Cards=[
         image:"/images/Hackevent.png",
         title:"Hack From Home",
         discription:<p>
-        'HACK FROM HOME', a project-based learning initiative programme by TinkerHub CE Chengannur was scheduled online for 
+        &apos;HACK FROM HOME&apos;, a project-based learning initiative programme by TinkerHub CE Chengannur was scheduled online for 
         five days from August 14th to  August 19th, 2021 primarily emphasised on project ideas and skills. 
         For this competition, 38 teams and more than 80 participants enrolled. HACK FROM HOME was an effective platform for
         students to showcase their creativity and generate further project ideas. Overall, it was  worthwhile and instructive.

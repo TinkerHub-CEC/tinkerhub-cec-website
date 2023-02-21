@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Card_Content} from './EventStyles';
+import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Card_Content,Parent_Conatiner} from './EventStyles';
 import Cards from './Cards'
 export default Event;
 function Event(){
@@ -11,7 +11,7 @@ function Event(){
      setData(result);  
      }
      return (
-    <div>
+    <Parent_Conatiner>
     <Heading>Events</Heading>
     <All_buttons><Button onClick={() => setData(Cards)}>All</Button>
    <Button onClick={() => filterResult('Open-Source')}>Open-Source</Button>
@@ -26,7 +26,7 @@ function Event(){
      const {image,title,discription,span1,span2,span3}=props;
      return(
 
-          <>
+<>          
           <Card>
             <Card_image src={props.image}></Card_image>
            <Card_Content><Title>{props.title}</Title>
@@ -37,15 +37,14 @@ function Event(){
       <Span>{props.span3}</Span>                  
     </SpanElements> 
     </Card_Content></Card>
-
-          </>
-     )
+</>
+   )
      
      }
      )}
     
       </Container>
-      </div>
+    </Parent_Conatiner>  
     )
 }
 

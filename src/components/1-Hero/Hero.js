@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, HeroContentAction, HeroGrid, HeroImage, HeroParagraph, LargeHeading, RedActionButton } from './HeroStyles'
+import { Container, HeroContentAction,HeadingContainer, HeroGrid, HeroImage, HeroParagraph, LargeHeading, RedActionButton } from './HeroStyles'
 
 export const Hero=()=> {
   return (
@@ -8,7 +8,11 @@ export const Hero=()=> {
         <HeroGrid>
 
             <HeroContentAction>
-                <LargeHeading>TinkerHub CE Chengannur</LargeHeading>
+                <HeadingContainer>
+                  <LargeHeading>TinkerHub</LargeHeading>
+                  <LargeHeading> CE Chengannur</LargeHeading>
+                </HeadingContainer>
+                
                 <HeroParagraph>Official TinkerHub Chapter of <br></br>College of Engineering, Chengannur</HeroParagraph>
                 <RedActionButton href="https://join.tinkerhub.org/" target="_blank">Join Us</RedActionButton>
                 

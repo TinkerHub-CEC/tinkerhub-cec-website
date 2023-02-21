@@ -1,10 +1,10 @@
 import React from "react";
-import {Outer,Row,Text,Holder,Content,PeopleImage,Name,Position} from "./peoplestyles";
+import {Outer,Row,Text,Holder,Content,PeopleImage,Name,Br,Position} from "./peoplestyles";
 
 const Meet = () =>{
     return(
        <Outer>
-         <Row>
+        
             <Text>Meet some amazing people!!!</Text>
 
             <Holder>
@@ -16,19 +16,20 @@ const Meet = () =>{
                 </Content>
 
                 <Content>
-                    <PeopleImage src="/images/Rithin.jpg"/>
-                    <Name>Rithin Samuel</Name>
-                    <Position>Javascript TinkerHub <br></br>Learning Facilitator</Position>
-                </Content>
-
-                <Content>
                     <PeopleImage src="/images/Akshay.jpeg"/>
                     <Name>Akshay Pradeep</Name>
                     <Position>CEO Octagon Technologies</Position>
                 </Content>
 
+                <Content>
+                    <PeopleImage src="/images/Rithin.jpg"/>
+                    <Name>Rithin Samuel</Name>
+                    <Position>Javascript TinkerHub Learning Facilitator</Position>
+                </Content>
+
+                
             </Holder>
-         </Row>
+        
         </Outer>
     )   
 }

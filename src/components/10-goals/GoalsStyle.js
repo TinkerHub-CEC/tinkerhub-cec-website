@@ -10,6 +10,9 @@ padding-bottom: 50px;
 background-color: #2074FF;
 
 @media screen and (max-width:768px){
+    padding:0 3rem;
+    padding-bottom:1em;
+    height:fit-content;
 
 
 }
@@ -26,11 +29,11 @@ font-family: 'Raleway';
 
 @media screen and (max-width:768px){
     text-align:left;
-    padding-left:0.2em;
-    padding-top:1em;
     margin-left:1em;
     font-size:70px;
     word-spacing:0.3em;
+    padding:0.8em 8rem;
+    margin:0;
     
 }
 `;
@@ -41,6 +44,9 @@ margin-left: 0%;
 font-size: 2.8rem;
 font-weight: 800;
 
+@media screen and (max-width:768px){
+    font-size: 1.8em;
+
 `;
 
 export const Row = styled.div`
@@ -50,6 +56,12 @@ border: solid black;
 background-color: white;
 margin-left: 5%;
 margin-right: 5%;
+
+@media screen and (max-width:768px){
+    font-size: 2.4em;
+    margin:0 8rem;
+    margin-bottom: 2em;
+}
 `;
 
 export const Box = styled.div`
@@ -60,6 +72,9 @@ color: black;
 width: 100%;
 padding-right:2%;
 font-weight:600;
+
+@media screen and (max-width:768px){
+    line-height: 1.4;
 `;
 
 export const Number = styled.div`
@@ -68,6 +83,10 @@ font-size: 7.0rem;
 font-weight: 700;
 margin-left: 2%;
 margin-top: 3%;
+
+@media screen and (max-width:768px){
+    font-size: 3em;
+    padding:20px;
 `;
 
 export const Brief = styled.div`

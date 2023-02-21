@@ -6,8 +6,9 @@ box-sizing:border-box;
 padding:0;
 margin:0;
 width:100%;
-@media screen and (max-width:768px){
 
+@media screen and (max-width:768px){
+    padding:0 3rem;
 
 }
 `;
@@ -22,11 +23,10 @@ font-family: 'Raleway';
 
 @media screen and (max-width:768px){
     text-align:left;
-    padding-left:0.2em;
-    padding-top:1em;
-    margin-left:1em;
-    font-size:130px;
+    margin-left:0;
     word-spacing:0.3em;
+    font-size:70px;
+    padding:1em 8rem 0 8rem;
     
 }
 `;
@@ -35,6 +35,7 @@ export const Head  = styled.p`
 width:90em;
 
 @media screen and (max-width:768px){
+    width:auto;
     
 }
 `;
@@ -43,10 +44,11 @@ padding-top:3em;
 display:flex;
 
 @media screen and (max-width:768px){
-    width:90em;
+    width:auto;
     display:flex;
     flex-direction:column;
     align-item:center;
+    padding-top:0;
 }
 `;
 
@@ -56,14 +58,16 @@ margin-left:2em;
 height:25em;
 @media screen and (max-width:768px){
     height:50em;
+    margin:0;
 }
 `;
 
 export const Block2 = styled.div`
  margin-left:8em;
 @media screen and (max-width:768px){
-     margin-left:7em;
+     margin-left:0em;
      margin-top:3em;
+     padding:0 8rem;
 }
 
 `;
@@ -140,10 +144,10 @@ transition:all  0.5s ease-in-out;
 }
 
 @media screen and (max-width:768px){
- margin-top:3em;
  width:11em;
  height:3.5em; 
- font-size:2.5em
+ font-size:3em;
+ margin:2em auto;
 }
 `;
 

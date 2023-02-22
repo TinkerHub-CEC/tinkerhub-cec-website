@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react"; 
-import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Card_Content,Parent_Conatiner} from './EventStyles';
+import React, { useEffect, useState } from "react";
+import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Parent_Conatiner,Card_Content} from './EventStyles';
 import Cards from './Cards'
 export default Event;
 function Event(){

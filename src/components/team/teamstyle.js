@@ -4,10 +4,7 @@ display: flex;
 flex-direction: column;
 margin-top: 4em;
 
-@media screen and (max-width:768px){
-    width:90em;
 
-}
 
 `;
 export const LargeHeading = styled.div`
@@ -17,23 +14,31 @@ width: 100%;
 text-align: center;
 `;
 export const Division1= styled.div`
+
 @media screen and (max-width:768px){
     
     display:flex;
-    align-items: center;
-    
-    
+    flex-direction:column;
+    align-items:center;
+    padding: 4em;
+   
 }
 
 `;
 export const Division4= styled.div`
 display: flex;
+
 `;
 
 export const Division2= styled.div`
-width: 540px;
-margin-left:50px;
-display: table-cell;
+
+@media screen and (max-width:768px){
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 15em;
+   
 `;
 export const Division3= styled.div`
 
@@ -68,6 +73,9 @@ display: flex;
 export const HeroImage = styled.img`
 width: 6em;
 border-radius:50%;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 
 
 
@@ -76,19 +84,27 @@ export const HeroImage1 = styled.img`
 width: 6em;
 border-radius:50%;
 margin-left: 45px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 
 `;
 export const HeroImage2 = styled.img`
 width: 6em;
 border-radius:50%;
-
 margin-left: 15px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 
 `;
 export const HeroImage3 = styled.img`
 width: 6em;
 border-radius:50%;
 margin-left: 40px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 
 
 
@@ -97,6 +113,9 @@ export const HeroImage4 = styled.img`
 width: 6em;
 border-radius:50%;
 margin-left: 51px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 
 
 `;
@@ -105,24 +124,36 @@ width: 6em;
 border-radius:50%;
 
 margin-left: 15px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 `;
 export const HeroImage6 = styled.img`
 width: 6em;
 border-radius:50%;
 
 margin-left: 20px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 `;
 export const HeroImage7 = styled.img`
 width: 6em;
 border-radius:50%;
 margin-left: 38px;
 margin-right: 20px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 `;
 export const HeroImage8 = styled.img`
 width: 6em;
 border-radius:50%;
 margin-left: 28px;
 margin-right: 20px;
+@media screen and (max-width:768px){
+    width: 45em;
+}
 `;
 export const HeroImage9 = styled.img`
 width: 6em;
@@ -181,6 +212,9 @@ margin-left: 36px;
 export const HeroImage21 = styled.img`
 width: 22em;
 align-self: center;
+@media screen and (max-width:768px){
+    width:70em;
+}
 `;
 export const HeroImage22 = styled.img`
 width: 4em;
@@ -200,6 +234,9 @@ border-radius: 4px;
 width:7.8em;
 display: inline;
 cursor: pointer;
+@media screen and (max-width:768px){
+    font-size: 3em;
+}
 
 &:hover{
     transform: scale(1.1);
@@ -219,6 +256,10 @@ border-radius: 4px;
 width:7.8em;
 display: inline;
 cursor: pointer;
+@media screen and (max-width:768px){
+    font-size: 4em;
+    padding: 15px 24px;
+}
 `;
 export const Buttondiv = styled.div`
 text-align: center;
@@ -230,6 +271,10 @@ font-size: 3rem;
 font-weight: 600;
 width: 100%;
 
+@media screen and (max-width:768px){
+    margin-top: 1em;
+    font-size: 6em;
+}
 
 `;
 export const LargeHeading2 = styled.div`
@@ -282,10 +327,10 @@ justify-content:center;
 padding-top:20px;
 
 @media screen and (max-width:768px){
-    width:90em;
+    
     display:flex;
     flex-direction:column;
-    align-item:center;
+    align-items:center;
 }
 `;
 
@@ -314,33 +359,60 @@ export const Name =styled.h4`
 text-align: right;
 
 padding-bottom:5px;
+
 color:black;
+@media screen and (max-width:768px){
+    font-size:5em;
+    padding-top: 0.5em;
+}
 `
 
 export const N1 =styled.h4`
 text-align: right;
 padding-right:7px;
+
 padding-bottom:5px;
+
 color:black;
+@media screen and (max-width:768px){
+    font-size:5em;
+    padding-top: 0.5em;
+}
 `
 export const N2 =styled.h4`
 text-align: center;
 padding-left:10px;
 padding-bottom:5px;
 color:black;
+@media screen and (max-width:768px){
+    padding-bottom: 0;
+    padding-left:0;
+    padding-right:0.5em;
+    padding-top: 0.5em;
+    font-size:5em;
+}
 `
 
 export const P1 =styled.p`
 text-align: right;
 color:black;
+
 padding-bottom:50px;
 padding-right:0.3em;
+@media screen and (max-width:768px){
+    font-size:4em;
+}
 `;
 export const P2 =styled.p`
 text-align: right;
 color:black;
 padding-bottom:50px;
 padding-right:1em;
+@media screen and (max-width:768px){
+    text-align: center;
+    padding-right:0em;
+    font-size:4em;
+}
 `;
 
 export const P3 =styled.p`
@@ -348,12 +420,21 @@ text-align: right;
 color:black;
 padding-bottom:50px;
 padding-right:1em;
+@media screen and (max-width:768px){
+    font-size:4em;
+    padding-right:0em;
+}
 `;
 export const P4 =styled.p`
 text-align: right;
 color:black;
 padding-bottom:50px;
 padding-right:0em;
+@media screen and (max-width:768px){
+    font-size:4em;
+    padding-right:0em;
+    font-size:4em;
+}
 `;
 
 export const P5 =styled.p`
@@ -361,11 +442,24 @@ text-align: center;
 color:black;
 padding-bottom:50px;
 padding-left:1em;
+@media screen and (max-width:768px){
+    text-align: center;
+    padding-left:0em;
+    font-size:4em;
+}
+
 `;
 export const P6 =styled.p`
 text-align: right;
 color:black;
 padding-bottom:50px;
 padding-right:1.5em;
+
+@media screen and (max-width:768px){
+    text-align: center;
+    padding-right:0em;
+    font-size:4em;
+}
+
 `;
 

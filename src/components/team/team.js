@@ -8,15 +8,15 @@ function Team() {
             
             <br/>
             <Buttondiv>
-            <Teambutton1>2021</Teambutton1>
+            {/* <Teambutton1>2021</Teambutton1>
             &nbsp;
-            &nbsp;
+            &nbsp; */}
             <Teambutton2>2022</Teambutton2>
             </Buttondiv>
             <br/>
             <br/>
             
-            <LargeHeading1><U><b>Community Tinkerers 2022-2023</b></U></LargeHeading1>
+            <LargeHeading1><U><b>Community <br/>Tinkerers 2022-2023</b></U></LargeHeading1>
             <br/>
             <br/>
             <Holder>
@@ -93,7 +93,7 @@ function Team() {
                     <P5>Media Team</P5>
             </Division1>
             <Division1>       
-            <HeroImage8 src="/images/profile.png"/>
+            <HeroImage8 src="/images/Lekshmi.jpg"/>
             <N2>Lekshmi R Nair</N2>
                     <P5>Media Team</P5>
             </Division1>

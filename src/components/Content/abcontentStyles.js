@@ -4,7 +4,7 @@ export const Container = styled.div`
 display: flex;
 
 flex-direction: column;
-margin-top: 4em;
+margin-top: 10em;
 @media screen and (max-width:768px){
     width:90em;
 
@@ -19,7 +19,7 @@ width: 100%;
 @media screen and (max-width:768px){
    
     padding-left:0em;
-    font-size:70px;
+    font-size:3em;
     word-spacing:0.3em;
 }
 
@@ -28,7 +28,7 @@ export const HeroContentAction = styled.div`
 display: flex;
 width: auto;
 padding: 50px 0 0 50px;
-margin-left:90px;
+margin-left:2em;
 flex-direction: column;
 @media screen and (max-width:768px){
     font-size:4.2rem;
@@ -66,7 +66,7 @@ flex-direction:column
 `;
 
 export const HeroParagraph = styled.div`
-font-size: 1.6rem;
+font-size: 1.8rem;
 
 width:70%;
 font-weight: 450;

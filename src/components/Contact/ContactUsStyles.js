@@ -17,7 +17,7 @@ export const Heading  = styled.p`
 font-size:55px;
 font-weight:700;
 padding-left:3em;
-padding-top:3em;
+padding-top:1em;
 font-family: 'Raleway';
 
 

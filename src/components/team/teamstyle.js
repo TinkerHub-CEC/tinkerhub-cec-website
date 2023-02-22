@@ -14,7 +14,11 @@ width: 100%;
 text-align: center;
 `;
 export const Division1= styled.div`
-
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 2em;
 @media screen and (max-width:768px){
     
     display:flex;
@@ -83,7 +87,8 @@ border-radius:50%;
 export const HeroImage1 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 45px;
+align-items: center;
+
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -92,7 +97,7 @@ margin-left: 45px;
 export const HeroImage2 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 15px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -101,7 +106,7 @@ margin-left: 15px;
 export const HeroImage3 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 40px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -112,7 +117,7 @@ margin-left: 40px;
 export const HeroImage4 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 51px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -122,8 +127,7 @@ margin-left: 51px;
 export const HeroImage5 = styled.img`
 width: 6em;
 border-radius:50%;
-
-margin-left: 15px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -131,8 +135,7 @@ margin-left: 15px;
 export const HeroImage6 = styled.img`
 width: 6em;
 border-radius:50%;
-
-margin-left: 20px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -140,8 +143,7 @@ margin-left: 20px;
 export const HeroImage7 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 38px;
-margin-right: 20px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -149,8 +151,7 @@ margin-right: 20px;
 export const HeroImage8 = styled.img`
 width: 6em;
 border-radius:50%;
-margin-left: 28px;
-margin-right: 20px;
+align-items: center;
 @media screen and (max-width:768px){
     width: 45em;
 }
@@ -158,6 +159,7 @@ margin-right: 20px;
 export const HeroImage9 = styled.img`
 width: 6em;
 border-radius:50%;
+align-items: center;
 
 ;
 `;
@@ -214,6 +216,7 @@ width: 22em;
 align-self: center;
 @media screen and (max-width:768px){
     width:70em;
+    margin-top:5em;
 }
 `;
 export const HeroImage22 = styled.img`
@@ -221,21 +224,29 @@ width: 4em;
 border-radius:50%;
 margin-left: 36px;
 `;
-export const Teambutton1 = styled.a`
+export const Teambutton1 = styled.button`
 border: 2px solid ${props => props.theme.colors.th_white};
-background-color: ${props => props.theme.colors.th_white};
+background-color: white;
 color: black;
 font-weight: 700;
 font-size: 1.6rem;
-margin-top: 5em;
+margin-top: 0em;
 text-align: center;
 padding: 5px 24px;
 border-radius: 4px;
 width:7.8em;
 display: inline;
 cursor: pointer;
+
 @media screen and (max-width:768px){
     font-size: 3em;
+    width:5em;
+    margin-left:1em;
+    margin-right:1em;
+    &:hover{
+        transform: scale(1.1);
+        transition-duration: 0.5s;
+    }
 }
 
 &:hover{
@@ -263,6 +274,7 @@ cursor: pointer;
 `;
 export const Buttondiv = styled.div`
 text-align: center;
+
 
 `;
 export const LargeHeading1 = styled.div`
@@ -357,7 +369,7 @@ text-decoration-color:#1438c7;
 `;
 export const Name =styled.h4`
 text-align: right;
-
+margin-top:1em;
 padding-bottom:5px;
 
 color:black;
@@ -397,17 +409,17 @@ export const P1 =styled.p`
 text-align: right;
 color:black;
 
-padding-bottom:50px;
+
 padding-right:0.3em;
 @media screen and (max-width:768px){
     font-size:4em;
 }
 `;
 export const P2 =styled.p`
-text-align: right;
+text-align: center;
 color:black;
-padding-bottom:50px;
-padding-right:1em;
+
+
 @media screen and (max-width:768px){
     text-align: center;
     padding-right:0em;
@@ -418,7 +430,7 @@ padding-right:1em;
 export const P3 =styled.p`
 text-align: right;
 color:black;
-padding-bottom:50px;
+
 padding-right:1em;
 @media screen and (max-width:768px){
     font-size:4em;
@@ -428,7 +440,7 @@ padding-right:1em;
 export const P4 =styled.p`
 text-align: right;
 color:black;
-padding-bottom:50px;
+
 padding-right:0em;
 @media screen and (max-width:768px){
     font-size:4em;
@@ -463,3 +475,9 @@ padding-right:1.5em;
 
 `;
 
+export const FirstDiv =styled.div`
+
+`
+export const SecondDiv =styled.div`
+
+`

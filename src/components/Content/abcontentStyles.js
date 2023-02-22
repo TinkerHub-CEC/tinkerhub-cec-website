@@ -66,7 +66,7 @@ flex-direction:column
 `;
 
 export const HeroParagraph = styled.div`
-font-size: 1.6rem;
+font-size: 1.8rem;
 
 width:70%;
 font-weight: 450;

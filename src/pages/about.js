@@ -12,7 +12,7 @@ const About = () => {
       <Abcontent/>
       {/* <Letter/>  */}
       <Team/> 
-      <Contact/>
+      
       <Footer/>
     </Layout>
           

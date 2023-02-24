@@ -12,7 +12,6 @@ const About = () => {
       <Abcontent/>
       {/* <Letter/>  */}
       <Team/> 
-      
       <Footer/>
     </Layout>
           

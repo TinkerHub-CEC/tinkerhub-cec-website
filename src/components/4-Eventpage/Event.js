@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements} from './EventStyles';
+import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Parent_Conatiner,Card_Content} from './EventStyles';
 import Cards from './Cards'
 export default Event;
 function Event(){
@@ -11,7 +11,7 @@ function Event(){
      setData(result);  
      }
      return (
-    <div>
+    <Parent_Conatiner>
     <Heading>Events</Heading>
     <All_buttons><Button onClick={() => setData(Cards)}>All</Button>
    <Button onClick={() => filterResult('Open-Source')}>Open-Source</Button>
@@ -26,25 +26,26 @@ function Event(){
      const {image,title,discription,span1,span2,span3}=props;
      return(
 
-          <Card key={props.title}>
+<>          
+          <Card>
             <Card_image src={props.image}></Card_image>
-            <Title>{props.title}</Title>
+           <Card_Content><Title>{props.title}</Title>
             <br></br>
     <Paragraph>{props.discription}</Paragraph>
        <br></br><SpanElements><Span>{props.span1}</Span>
       <Span>{props.span2}</Span>
-      <Span>{props.span3}</Span>  
-      </SpanElements>                
-    </Card>
-
-      
-     )
+      <Span>{props.span3}</Span>                  
+    </SpanElements> 
+    </Card_Content></Card>
+</>
+   )
      
      }
      )}
     
       </Container>
-      </div>
+    </Parent_Conatiner>  
     )
 }
+
 

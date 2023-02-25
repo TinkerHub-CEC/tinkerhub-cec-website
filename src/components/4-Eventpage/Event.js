@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import {Card,Card_image,Paragraph,Span,Title,Heading,Button,Container,All_buttons,SpanElements,Parent_Conatiner,Card_Content} from './EventStyles';
 import Cards from './Cards'
 export default Event;
@@ -19,7 +19,7 @@ function Event(){
             <Button onClick={() => filterResult('Open-Source')}>Open-Source</Button>
             <Button onClick={() => filterResult('Mobile')}>Mobile</Button>
             <Button onClick={() => filterResult('Design')}>Design</Button>
-            <Button onClick={() => filterResult('Iot')}>Internet of Things</Button>
+            <Button onClick={() => filterResult('Iot')}>IOT</Button>
             <Button onClick={() => filterResult('Hackathons')}>Hackathons</Button>
             <Button onClick={() => filterResult('Robotics')}>Robotics</Button>
           </All_buttons>

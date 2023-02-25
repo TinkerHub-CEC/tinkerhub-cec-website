@@ -16,6 +16,8 @@ export const LargeHeading = styled.div`
 font-size: 4.2rem;
 font-weight: 700;
 width: 100%;
+paading-top:30px;
+
 @media screen and (max-width:768px){
    
     padding-left:0em;

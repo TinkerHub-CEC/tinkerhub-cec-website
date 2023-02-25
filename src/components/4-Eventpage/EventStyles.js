@@ -2,12 +2,12 @@ import styled from "styled-components";
 
  export const Heading =styled.h1`
 color:#2f1b41;
- margin-left: 30px;
-  margin-top: 50px;
+ margin-left: 40px;
+  // margin-top: 50px;
   margin-bottom: 50px;
-  align-self: flex-start;
-  font-family: Segoe; 
-  font-size: 45px; 
+ align-self: flex-start;
+  font-family: "Times New Roman"; 
+  font-size:290%; 
   font-style: normal;
    font-variant: normal;
     font-weight: 700; 
@@ -16,9 +16,10 @@ color:#2f1b41;
     font-size:400%;}
 `;
 export const Parent_Conatiner=styled.div`
-// display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-
+margin-top:15rem;
+@media screen and (max-width:770px){
+margin-top:1rem;
+}
 `;
 export const Button = styled.button`
   display:relative;

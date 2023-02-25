@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin-top: 4em;
+margin-top: 2em;
+position: relative;
+top: 3%;
 
 @media screen and (max-width:768px){
     padding:0 3rem 1em 3rem;
     margin-top: 0;
+    top:2%
 
 `;
 

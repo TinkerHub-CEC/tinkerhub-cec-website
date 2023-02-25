@@ -3,21 +3,24 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 box-sizing:border-box;
-padding:0;
+margin-top:3em;
 margin:0;
 width:100%;
+position:relative;
+top:4%;
+
 
 @media screen and (max-width:768px){
-    padding:0 3rem;
+    padding:2rem 3rem;
+    top:2%;
 
 }
 `;
 
 export const Heading  = styled.p`
-font-size:55px;
+font-size:38px;
 font-weight:700;
-padding-left:3em;
-padding-top:1em;
+padding:0 8rem;
 font-family: 'Raleway';
 
 

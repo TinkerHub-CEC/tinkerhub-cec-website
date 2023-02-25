@@ -7,10 +7,14 @@ flex-direction: column;
 position: relative;
 top: 3%;
 left: 0%;
+height:max-content;
+padding-top: 2.4rem;
+
 
 @media (max-width: 768px) {
     top: 0%;
     padding:0 3rem;
+    
 }
 `;
 
@@ -32,7 +36,7 @@ font-weight: 700;
 padding-right:15px;
 
 @media (max-width: 768px) {
-    font-size: 6.4em;
+    font-size: 5.6em;
     // padding: 0 3.3em;
     width:96%;
 
@@ -78,7 +82,7 @@ font-size: 1.8rem;
 width:60%;
 font-weight: 400;
 line-height: 1.5;
-margin: 1.5em 0;
+margin: 0.5em 0 3em 0;
 
 @media (max-width: 768px) {
     font-size: 3.2em;
@@ -93,7 +97,7 @@ background-color: ${props => props.theme.colors.th_red};
 color: white;
 font-weight: 700;
 font-size: 1.6rem;
-margin-top: 5em;
+// margin-top: 2em;
 text-align: center;
 padding: 8px 20px;
 border-radius: 20px;
@@ -112,3 +116,17 @@ cursor: pointer;
 
 
 `;
+
+export const HeroVector = styled.img`
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // padding-top:50px ;
+    margin-top: 50px;
+    width: 680px;
+    height: 150px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+`

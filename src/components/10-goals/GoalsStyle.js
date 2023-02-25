@@ -2,17 +2,21 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 margin:0;
-margin-top: 9em;
+// margin-top: 7.4em;
 box-sizing:border-box;
 padding:0;
 width:100%;
 padding-bottom: 50px;
 background-color: #2074FF;
+position:relative;
+top:110px;
+
 
 @media screen and (max-width:768px){
     padding:0 3rem;
     padding-bottom:1em;
     height:fit-content;
+    top:2%;
 
 
 }

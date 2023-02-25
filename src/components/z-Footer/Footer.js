@@ -1,17 +1,17 @@
 import React from "react";
-import { FooterContainer, HorizontalLine, FooterText } from './FooterStyles';
+import { FooterContainer, HorizontalLine, FooterText, Container } from './FooterStyles';
 
 
 function Footer() {
   return (
-    <div>
+    <Container>
       <HorizontalLine></HorizontalLine>
       <FooterContainer>
         
           
           <FooterText>© 2021 ThinkerHub CE Chengannur</FooterText>
       </FooterContainer>
-    </div>
+    </Container>
   );
 }
 

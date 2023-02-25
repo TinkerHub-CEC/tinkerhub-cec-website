@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const Outer =styled.div`
 background: #FA4B4B;
-margin-top:5%;
+margin-top:4%;
 margin-bottom:0;
 padding:30px 8rem;
-position:relative;;
+position:relative;
+top:3%;
 
 @media screen and (max-width:768px){
     padding:0 3rem;
-    // height:max-content;
     padding-bottom:175px;
+    top:2%;
 }
 `;
 

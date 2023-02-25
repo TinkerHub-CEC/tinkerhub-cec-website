@@ -14,9 +14,9 @@ export const  Contact = () => {
    }
     return(
         <Container>
-         <Head>
+         
             <Heading>Connect with Us </Heading>
-         </Head>
+      
             <Container1>
              <Block1 src="/images/contact-us.png " alt="Contact us image"></Block1>
              <Block2>

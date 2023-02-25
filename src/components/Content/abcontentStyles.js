@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: flex;
-
 flex-direction: column;
 margin-top: 10em;
+
 @media screen and (max-width:768px){
     width:90em;
 

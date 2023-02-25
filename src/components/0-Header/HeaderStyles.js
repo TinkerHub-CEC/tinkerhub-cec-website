@@ -25,6 +25,7 @@ export const Nav_logo=styled.a`
 @media screen and (max-width:768px){
     // width:1000px;
     // height:200px;
+    padding-top:1em ;
 }
 `;
 
@@ -34,8 +35,8 @@ width:260px;
 height:94px;
 
 @media screen and (max-width:768px){
-    width:850px;
-    height:280px;
+    width:700px;
+    height:240px;
 `;
 
 export const Nav_toggle=styled.div`

@@ -4,11 +4,12 @@ export const Parent_Conatiner=styled.div`
 // display: grid;
 //   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 // position: relative;
-// top: 18%;
+// top: 0%;
 padding: 1rem 7.2rem;
-
+margin-top:10rem;
 @media screen and (max-width:750px){
   top: 0%;
+  margin-top:1rem;
   padding: 1rem 14rem;
   // font-size: 1.6em;
 
@@ -26,7 +27,7 @@ padding: 1rem 7.2rem;
   font-weight: 700; 
   line-height: 26.4px;
 
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     font-size:400%;}
 `;
 
@@ -44,9 +45,9 @@ export const Button = styled.button`
   padding-top:2px;
   padding-bottom:2px;
   
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     height:63px;
-    font-size:xx-large;}
+    font-size:x-large;}
 `;
   
   export const Container = styled.div`
@@ -56,7 +57,7 @@ export const Button = styled.button`
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
    grid-gap:3rem;
    grid-auto-rows: auto;
-   @media screen and (max-width:770px){ 
+   @media screen and (max-width:750px){ 
    display: flex;
    flex-wrap: wrap;
    }  
@@ -81,7 +82,7 @@ margin-right:0px;
   transition: 0.25s ease-in;
  } 
 
- @media screen and (max-width:770px){
+ @media screen and (max-width:750px){
   width:100%;
   margin:10px;  
   height:390px;   
@@ -96,7 +97,7 @@ export const Title= styled.h2`
          font-style: normal; 
          font-variant: normal;
          font-weight: 700; line-height: 26.4px;
-         @media screen and (max-width:770px){
+         @media screen and (max-width:750px){
           font-size:xxx-large;
           margin-top:30rem;
         }
@@ -112,7 +113,7 @@ padding-right:20px;
 position: relative;
 left: 0em;
 margin-bottom:5px;
-@media screen and (max-width:770px){
+@media screen and (max-width:750px){
   font-size:xx-large;
 }
 
@@ -125,7 +126,7 @@ export const Paragraph= styled.p`
   margin-right:8px;
   color:black ;
   margin-bottom:2rem;
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     font-size:xx-large;
     margin-top:3.5rem;
   }
@@ -145,7 +146,7 @@ export const Card_image = styled.img`
       height:630px;
       transition: 0.25s ease-in;
      } 
-     @media screen and (max-width:770px){
+     @media screen and (max-width:750px){
       width:60rem;
       height:30rem;
   

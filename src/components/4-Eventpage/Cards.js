@@ -23,7 +23,7 @@ const Cards=[
         It was led by four mentors: Taniya Rose, Jeffin G. Benny, Akshay Pradeep, and Karun S (TLF mentors).
         Students were enthusiastic and active, and tasks were assigned at the end.
          </p> ,
-        span1:"flutter",
+        span1:"Flutter",
         span2:"Bootcamp",
         span3:"App-Dev"  
     },

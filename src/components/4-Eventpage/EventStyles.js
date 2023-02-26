@@ -3,21 +3,19 @@ import styled from "styled-components";
 export const Parent_Conatiner=styled.div`
 // display: grid;
 //   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-// position: relative;
-// top: 18%;
+margin-top: 100px;
 padding: 1rem 7.2rem;
 
 @media screen and (max-width:750px){
   top: 0%;
-  padding: 1rem 14rem;
-  // font-size: 1.6em;
+  padding: 8rem 14rem;
+  margin-top: 0px;
 
 `;
 
  export const Heading =styled.h1`
   color:#2f1b41;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px 0;
   align-self: flex-start;
   font-family: Segoe; 
   font-size: 45px; 
@@ -27,7 +25,9 @@ padding: 1rem 7.2rem;
   line-height: 26.4px;
 
   @media screen and (max-width:770px){
-    font-size:400%;}
+    font-size:400%;
+    // padding-bottom: 20px;  
+  }
 `;
 
 export const Button = styled.button`
@@ -39,97 +39,102 @@ export const Button = styled.button`
   border: none; 
   margin-right: 30px;
   margin-bottom: 25px;
-  padding-left:4px;
-  padding-right:4px;
-  padding-top:2px;
-  padding-bottom:2px;
+  padding:10px;
   
   @media screen and (max-width:770px){
-    height:63px;
-    font-size:xx-large;}
+    max-height: 100px;
+    font-size:xx-large;
+    width:max-content;
+    width:500px;}
 `;
   
-  export const Container = styled.div`
-     margin-top: 50px;
+export const Container = styled.div`
+   margin-top: 50px;
    float: center;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
    grid-gap:3rem;
    grid-auto-rows: auto;
+
    @media screen and (max-width:770px){ 
    display: flex;
    flex-wrap: wrap;
+   padding-top:20px;
    }  
  `;
+
 export const Card= styled.div`
-background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-transition: 0.15s ease-out;
-align-items:center;
-flex-direction: column;
-display:flex;
-border: 0.5px solid lightgrey;
-height:230px;
-width: 300px;
-margin-right:0px;
-// margin-left: 30px;
- border-radius:10px;
- cursor: pointer;
- position:relative;
- box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
- :hover{
-  height:660px;
-  transition: 0.25s ease-in;
+  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  transition: 0.15s ease-out;
+  align-items:center;
+  flex-direction: column;
+  display:flex;
+  border: 0.5px solid lightgrey;
+  height:230px;
+  width: 300px;
+  margin-right:0px;
+  border-radius:10px;
+  cursor: pointer;
+  position:relative;
+  box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
+
+  :hover{
+   height:660px;
+   transition: 0.25s ease-in;
  } 
 
  @media screen and (max-width:770px){
   width:100%;
   margin:10px;  
-  height:390px;   
+  height:400px;
+  margin-bottom: 5em;
+  
+  :hover{
+    height:800px;
 }`;
 
 export const Title= styled.h2`
-        color: white;
-        margin-top: 170px;
-        text-align: center;
-         margin-bottom: 5px;
-         font-family: Varela; font-size: 24px; 
-         font-style: normal; 
-         font-variant: normal;
-         font-weight: 700; line-height: 26.4px;
-         @media screen and (max-width:770px){
-          font-size:xxx-large;
-          margin-top:30rem;
-        }
-    `;
+  color: white;
+  margin-top: 150px;
+  text-align: center;
+  // margin-bottom: 5px;
+  font-family: Varela; 
+  font-size: 24px; 
+  // font-style: normal; 
+  // font-variant: normal;
+  font-weight: 600; 
+  line-height: 26.4px;
+
+  @media screen and (max-width:770px){
+   font-size:xxx-large;
+   margin-top:30rem;
+}`;
          
 
 export const Span = styled.span`
-font-size:small;
-color: white;
-display:inline-block;
-padding-left:10px;
-padding-right:20px;
-position: relative;
-left: 0em;
-margin-bottom:5px;
-@media screen and (max-width:770px){
-  font-size:xx-large;
-}
+  font-size:small;
+  color: white;
+  display:inline-block;
+  padding-left:10px;
+  padding-right:20px;
+  position: relative;
+  left: 0em;
+  margin-bottom:5px;
 
-`;
+  @media screen and (max-width:770px){
+    font-size:xx-large;
+}`;
 
 export const Paragraph= styled.p`
   font-size:large;
-  margin-top:1rem;
-  margin-left:8px;
-  margin-right:8px;
   color:black ;
-  margin-bottom:2rem;
+  padding: 20px;
+
   @media screen and (max-width:770px){
     font-size:xx-large;
-    margin-top:3.5rem;
-  }
-`;
+    margin-top:2rem;
+}`;
+
 export const Card_image = styled.img`
     height: 180px;
     left:50%;
@@ -141,10 +146,12 @@ export const Card_image = styled.img`
     display:block;
     border-radius:40px;
     box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
+
     :hover:Card_image:{
       height:630px;
       transition: 0.25s ease-in;
      } 
+
      @media screen and (max-width:770px){
       width:60rem;
       height:30rem;
@@ -152,9 +159,12 @@ export const Card_image = styled.img`
  }
    
 `;
+
 export const All_buttons= styled.div`
 display:flex; 
+padding: 20px 0;
 `;
+
 export const SpanElements=styled.div`
 max-width: 100%;
 width: 100%;
@@ -168,7 +178,13 @@ left:0;
 bottom:0;
 right:0;
 margin:auto;
+padding-top: 20px;
+
+@media screen and (max-width:770px){
+  padding-top: 100px;
 `;
+
 export const Card_Content = styled.div`
 overflow:hidden;
+padding: 10px;
 `;

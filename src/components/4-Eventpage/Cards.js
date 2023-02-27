@@ -55,15 +55,17 @@ const Cards=[
         span2:"Flutter",
         span3:"Web-dev"  
     },
-    // {
-    //     category:"Design",
-    //     image:"/images/ph.jpg",
-    //     title:"Title5",
-    //     discription:"Some quick example text to build on the card title and make up the bulk of the cards content.",
-    //     span1:"flutter",
-    //     span2:"mobile",
-    //     span3:"hackathon"  
-    // },
+    {
+        category:"Mobile",
+        image:"/images/Kotlinlogo.png",
+        title:"Kotlin App Development Workshop",
+        discription:<p>The Kotlin app development workshop was a four day workshop organised by TinkerHub CE Chengannur,
+             handled by Jeffin G Benny, TLF mentor. The workshop was held on 20th june to 23rd june 2022 from 4:00pm to 5:00 pm.
+             By the end of the workshop participants had a solid knowledge in Kotlin and be able to bulit their own Android apps.</p>,
+        span1:"Kotlin",
+        span2:"mobile",
+        span3:"App-dev"  
+    },
     // {
     //     category:"Iot",
     //     image:"/images/ph.jpg",

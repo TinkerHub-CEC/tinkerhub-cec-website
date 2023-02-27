@@ -24,7 +24,7 @@ padding: 1rem 7.2rem;
   font-weight: 700; 
   line-height: 26.4px;
 
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     font-size:400%;
     // padding-bottom: 20px;  
   }
@@ -41,7 +41,7 @@ export const Button = styled.button`
   margin-bottom: 25px;
   padding:10px;
   
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     max-height: 100px;
     font-size:xx-large;
     width:max-content;
@@ -55,8 +55,8 @@ export const Container = styled.div`
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
    grid-gap:3rem;
    grid-auto-rows: auto;
-
-   @media screen and (max-width:770px){ 
+   row-gap:80px;
+   @media screen and (max-width:750px){ 
    display: flex;
    flex-wrap: wrap;
    padding-top:20px;
@@ -70,20 +70,20 @@ export const Card= styled.div`
   flex-direction: column;
   display:flex;
   border: 0.5px solid lightgrey;
-  height:230px;
+  height:245px;
   width: 300px;
   margin-right:0px;
   border-radius:10px;
   cursor: pointer;
   position:relative;
   box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
-
+ 
   :hover{
-   height:660px;
+   height:680px;
    transition: 0.25s ease-in;
  } 
 
- @media screen and (max-width:770px){
+ @media screen and (max-width:750px){
   width:100%;
   margin:10px;  
   height:400px;
@@ -95,7 +95,7 @@ export const Card= styled.div`
 
 export const Title= styled.h2`
   color: white;
-  margin-top: 150px;
+  margin-top: 160px;
   text-align: center;
   // margin-bottom: 5px;
   font-family: Varela; 
@@ -105,7 +105,7 @@ export const Title= styled.h2`
   font-weight: 600; 
   line-height: 26.4px;
 
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
    font-size:xxx-large;
    margin-top:30rem;
 }`;
@@ -121,16 +121,16 @@ export const Span = styled.span`
   left: 0em;
   margin-bottom:5px;
 
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     font-size:xx-large;
 }`;
 
 export const Paragraph= styled.p`
   font-size:large;
   color:black ;
-  padding: 20px;
+  padding:27px 10px;
 
-  @media screen and (max-width:770px){
+  @media screen and (max-width:750px){
     font-size:xx-large;
     margin-top:2rem;
 }`;
@@ -152,7 +152,7 @@ export const Card_image = styled.img`
       transition: 0.25s ease-in;
      } 
 
-     @media screen and (max-width:770px){
+     @media screen and (max-width:750px){
       width:60rem;
       height:30rem;
   
@@ -180,7 +180,7 @@ right:0;
 margin:auto;
 padding-top: 20px;
 
-@media screen and (max-width:770px){
+@media screen and (max-width:750px){
   padding-top: 100px;
 `;
 

@@ -16,7 +16,7 @@ const Meet = () =>{
                 </Content>
 
                 <Content>
-                    <PeopleImage src="/images/Akshay.jpeg"/>
+                    <PeopleImage src="/images/Akshay.jpg"/>
                     <Name>Akshay Pradeep</Name>
                     <Position>CEO Octagon Technologies</Position>
                 </Content>

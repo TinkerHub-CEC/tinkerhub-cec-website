@@ -64,7 +64,7 @@ export const Container = styled.div`
  `;
 
 export const Card= styled.div`
-  background: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background: linear-gradient(to top, #1b1b9d 0%, #27a5fe 100%);
   transition: 0.15s ease-out;
   align-items:center;
   flex-direction: column;

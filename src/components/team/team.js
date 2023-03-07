@@ -150,7 +150,7 @@ const AnimatedDiv = styled.div`
 
                 </Division1>
                 <Division1>
-                <HeroImage1 src="/images/Rithin.jpg"/>
+                <HeroImage1 src="/images/Harikrishnan.jpeg"/>
                 <div>
                 <Name>Harikrishnan B</Name>
                 <P1></P1>
@@ -162,7 +162,7 @@ const AnimatedDiv = styled.div`
             
             <Holder>
                 <Division1> 
-            <HeroImage2 src="/images/Lekshmipriya.jpg"/>
+            <HeroImage2 src="/images/Devikaa.jpg"/>
             <Name>Devikaa D</Name>
             <P1></P1>
 
@@ -174,7 +174,7 @@ const AnimatedDiv = styled.div`
 
                     </Division1>
                     <Division1>       
-            <HeroImage4 src="/images/Abin.jpg"/>
+            <HeroImage4 src="/images/Sreelakshmi.jpeg"/>
             <Name>Sreelakshmi M</Name>
             <P1></P1>
 

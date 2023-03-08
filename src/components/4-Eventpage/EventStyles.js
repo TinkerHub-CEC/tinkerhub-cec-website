@@ -127,7 +127,7 @@ export const Span = styled.span`
 
 export const Paragraph= styled.p`
   font-size:large;
-  color:black ;
+  color:white ;
   padding:27px 10px;
 
   @media screen and (max-width:750px){
@@ -137,11 +137,11 @@ export const Paragraph= styled.p`
 
 export const Card_image = styled.img`
     height: 180px;
-    left:50%;
+    left:50.5%;
     transform:translateX(-50%);
     width: 190px;
     object-fit: cover;
-    top:-30px;
+    top:-3em;
     position:absolute;
     display:block;
     border-radius:40px;

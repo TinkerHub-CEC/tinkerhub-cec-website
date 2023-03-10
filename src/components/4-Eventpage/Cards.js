@@ -66,33 +66,38 @@ const Cards=[
         span2:"mobile",
         span3:"App-dev"  
     },
-    // {
-    //     category:"Iot",
-    //     image:"/images/ph.jpg",
-    //     title:"Title6",
-    //     discription:"Some quick example text to build on the card title and make up the bulk of the cards content.",
-    //     span1:"flutter",
-    //     span2:"mobile",
-    //     span3:"hackathon"  
-    // },
-    // {
-    //     category:"Hackathons",
-    //     image:"/images/ph.jpg",
-    //     title:"Title7",
-    //     discription:"Some quick example text to build on the card title and make up the bulk of the cards content.",
-    //     span1:"flutter",
-    //     span2:"mobile",
-    //     span3:"hackathon"  
-    // },
-    // {
-    //     category:"Robotics",
-    //     image:"/images/ph.jpg",
-    //     title:"Title8",
-    //     discription:"Some quick example text to build on the card title and make up the bulk of the cards content.",
-    //     span1:"flutter",
-    //     span2:"mobile",
-    //     span3:"hackathon"  
-    // }
+    {
+        category:"Hackathons",
+        image:"/images/Santacode.jpg",
+        title:"Santacode",
+        discription:<p>Santacode was a coding competition conducted by TinkerHub CE Chengannur as a part of Joy of Programming.
+             The task was to code any Christmas related image.
+            A doubt clearing session was also conducted to introduce the participants to the monschool platform.</p>,
+        span1:"Coding",
+        span2:"Python",
+        span3:"Competition"  
+    },
+    {
+        category:"Design",
+        image:"/images/designworkshop.png",
+        title:"Design Workshop",
+        discription:<p>A design workshop was conducted in online mode through our discord server which covered the basics of figma.
+                       It was led by Harikrishnan B and Sreelekshmi</p>,
+        span1:"flutter",
+        span2:"mobile",
+        span3:"hackathon"  
+    },
+    {
+        category:"Open-Source",
+        image:"/images/hacktoberfest.png",
+        title:"Hacktober-Fest Talk Session",
+        discription:<p>TinkerHub CE Chengannur in collaboration with IEDC Bootcamp CEC organised a Talk Session based on "What is
+        Hacktober Fest?" along with Git and Github.
+        Rithin Samuel, Tech lead of TinkerHub handled the session slated on 7th October to dole out an idea, about Hacktober fest, and how to use Git and GitHub.</p>,
+        span1:"Git",
+        span2:"Hacktoberfest",
+        span3:"Talk-Session"  
+    }
     ]
     export default Cards;
     

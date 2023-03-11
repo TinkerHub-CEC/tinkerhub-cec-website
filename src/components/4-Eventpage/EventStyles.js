@@ -23,6 +23,7 @@ padding: 1rem 7.2rem;
   font-variant: normal;
   font-weight: 700; 
   line-height: 26.4px;
+  text-shadow: 5px 5px 10px #87CEFA;
 
   @media screen and (max-width:750px){
     font-size:400%;
@@ -95,7 +96,7 @@ export const Card= styled.div`
 
 export const Title= styled.h2`
   color: white;
-  margin-top: 160px;
+  margin-top: 150px;
   text-align: center;
   // margin-bottom: 5px;
   font-family: Varela; 
@@ -128,7 +129,7 @@ export const Span = styled.span`
 export const Paragraph= styled.p`
   font-size:large;
   color:white ;
-  padding:27px 10px;
+  padding:37px 10px;
 
   @media screen and (max-width:750px){
     font-size:xx-large;

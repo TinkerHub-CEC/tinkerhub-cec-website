@@ -1,14 +1,29 @@
-import styled from 'styled-components';
+import styled,{css,keyframes} from 'styled-components';
 
 export const Container = styled.div`
 margin-top: 2em;
 position: relative;
 top: 3%;
 
+  ${({ visible }) => visible && css`
+    opacity: 1;
+    transform: translateX(0);
+    animation: ${fadeIn} 2s ease-in-out;
+  `}
+
+
 @media screen and (max-width:768px){
     padding:0 3rem 1em 3rem;
     margin-top: 0;
     top:2%
+
+`;
+
+const fadeIn = keyframes`
+
+
+  from {left: -100px;opacity: 0}
+  to {left: 0px;opacity: 1}
 
 `;
 
@@ -30,7 +45,6 @@ grid-template-columns: auto auto auto;
 margin-top: 3em;
 padding: 0 8rem;
 line-height: 1.4;
-
 @media screen and (max-width:768px){
     // font-size: 2.4em;
 }
@@ -67,7 +81,13 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
-
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    
 @media screen and (max-width:768px){
     padding-top: 2em;
 }
@@ -86,6 +106,12 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
 @media screen and (max-width:768px){
     padding-top: 2em;
@@ -105,6 +131,12 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
 @media screen and (max-width:768px){
     padding-top: 2em;
@@ -124,6 +156,12 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
 @media screen and (max-width:768px){
     padding-top: 2em;
@@ -143,6 +181,12 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
 @media screen and (max-width:768px){
     padding-top: 2em;
@@ -162,6 +206,12 @@ border-radius: 8%;
 color: white;
 padding:10px;
 padding-top: 3em;
+transition: all 0.3s ease-in-out;
+&:hover {
+    //transform
+    transform: translateY(-10px);
+    //box shadow
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 
 @media screen and (max-width:768px){
     padding-top: 2em;

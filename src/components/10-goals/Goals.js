@@ -1,10 +1,31 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 
 import { Container, Box, Row, Heading, Heading2, Number, Brief } from './GoalsStyle'
 
 function Initiatives() {
+    const [visible, setVisible] = useState(false);
+
+          useEffect(() => {
+            const handleScroll = () => {
+              const element = document.getElementById('animated-div');
+              const elementPosition = element.getBoundingClientRect();
+        
+              // Check if element is in view
+              if (elementPosition.top < window.innerHeight && elementPosition.bottom >= 0) {
+                setVisible(true);
+              } else {
+                setVisible(false);
+              }
+            };
+        
+            window.addEventListener('scroll', handleScroll);
+        
+            return () => {
+              window.removeEventListener('scroll', handleScroll);
+            };
+          }, []);
     return (
-        <Container>
+        <Container id='animated-div' visible={visible}>
             <Heading>Goals...</Heading>
             <Row>
                 <Number>1</Number>

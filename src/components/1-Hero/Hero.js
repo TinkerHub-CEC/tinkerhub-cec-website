@@ -5,10 +5,12 @@ import { Container, HeroContentAction,HeadingContainer,HeroVector, HeroGrid, Her
 export const Hero=()=> {
   return (
     <Container>
+      <br /><br />
         <HeroGrid>
             <HeroContentAction>
 
                 <HeadingContainer>
+                  
                   <LargeHeading>TinkerHub</LargeHeading>
                   <LargeHeading> CE Chengannur</LargeHeading>
                 </HeadingContainer>

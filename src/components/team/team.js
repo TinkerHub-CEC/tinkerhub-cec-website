@@ -144,7 +144,7 @@ const AnimatedDiv = styled.div`
             <Holder>
             <Division1>
                 
-                <HeroImage src="/images/Akshay.jpg"/> 
+                <HeroImage src="/images/Akshay.JPG"/> 
                 <Name>Akshay Pradeep</Name>
                 <P1></P1>
 

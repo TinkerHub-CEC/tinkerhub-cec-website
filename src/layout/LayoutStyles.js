@@ -8,8 +8,14 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 
+
 @media screen and (max-width: 768px) {
     font-size: 1.5rem;
     width: 90em;
+//     animation-name: e;
+// animation-duration:2s;
+// @keyframes e{
+//     from {opacity: 0}
+//     to {opacity: 1}
 
 `;

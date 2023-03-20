@@ -78,10 +78,10 @@ export const Card= styled.div`
   cursor: pointer;
   position:relative;
   box-shadow: 2px 2px 4px rgba(0.15,0.15,0.15,0.15);
- 
+  transition: 1s;
   :hover{
    height:680px;
-   transition: 0.25s ease-in;
+   
  } 
 
  @media screen and (max-width:750px){
